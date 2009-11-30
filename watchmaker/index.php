@@ -13,7 +13,7 @@
   </head>
   <body class="yui-skin-sam">
     <div id="container">
-      <?php include('header.php'); ?>
+      <?php readfile('header.html'); ?>
 
       <p>
         The Watchmaker Framework is an extensible, high-performance, object-oriented framework for implementing platform-independent
@@ -23,7 +23,7 @@
       </p>
  
       <div id="sidebar">
-        <?php include('examples.php'); ?>
+        <?php readfile('examples.html'); ?>
       </div>
       
       <div id="main">
@@ -72,7 +72,7 @@
         </ul>
       </div>
 
-      <?php include('footer.php'); ?>
+      <?php readfile('footer.html'); ?>
     </div>
   </body>
 </html>
