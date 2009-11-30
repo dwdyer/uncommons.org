@@ -1,0 +1,23 @@
+* {padding: 0;
+   margin: 0;}
+body {line-height: 1.8em;
+      font-size: 62.5%;
+      font-family: Palatino Linotype, Palatino, serif;}
+h1 {font-family: Palatino Linotype, Palatino, serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 3em;
+    margin-bottom: .2em;
+    color: #444444;}
+
+#container {width: 950px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #ffffff;}
+
+#title {margin-top: 2em;
+        color: #444444;
+        border-bottom: 1px solid #666666;}
+
+#tagline {font-size: 1.5em;
+          margin-bottom: 1.2em;}
