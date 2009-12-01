@@ -1,4 +1,4 @@
-        <h2>Example Applications</h2>
+        <h2>Example Programs</h2>
         <div id="examples">
           <ol>
             <li>
@@ -35,10 +35,13 @@
           (function () {
             var carousel;
             YAHOO.util.Event.onDOMReady(function (ev) {
+              var index = (Math.floor(Math.random() * 4));
               var carousel = new YAHOO.widget.Carousel("examples", {
-                isCircular: true, numVisible: 1 
+                isCircular: true, numVisible: 1, autoPlayInterval: 15000
               });
               carousel.render();
+              carousel.scrollTo(index);
+              carousel.startAutoPlay();
             });
           })();
         </script>

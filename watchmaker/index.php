@@ -7,6 +7,7 @@
     <meta name="keywords" content="evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, dan, daniel, dyer, swing, sudoku, mona, lisa, biomorphs, travelling, traveling, salesman" />
     <meta name="author" content="Daniel Dyer" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
     <!-- YUI Carousel -->
     <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />  
     <script type="text/javascript" src="http://yui.yahooapis.com/combo?2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js&2.8.0r4/build/element/element-min.js&2.8.0r4/build/carousel/carousel-min.js"></script> 
@@ -19,11 +20,13 @@
         The Watchmaker Framework is an extensible, high-performance, object-oriented framework for implementing platform-independent
         <a href="http://en.wikipedia.org/wiki/Evolutionary_algorithm">evolutionary/genetic algorithms</a> in Java. The framework
         provides type-safe evolution for arbitrary types via a non-invasive API.  The Watchmaker Framework is Open Source software,
-        free to use subject to the terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.
+        free to <a href="#">download</a> and use subject to the terms of the
+        <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.
       </p>
  
       <div id="sidebar">
         <?php readfile('examples.html'); ?>
+        <?php readfile('reading.html'); ?>
       </div>
       
       <div id="main">
