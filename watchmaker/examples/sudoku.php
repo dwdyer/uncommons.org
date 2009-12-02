@@ -40,6 +40,12 @@
             increases.  If the solver does appear to be stuck, the attempt can be aborted and you can
             try again.
         </p>
+        <h3>Other Examples</h3>
+        <ul>
+          <li><a href="salesman.php">The Travelling Salesman</a></li>
+          <li><a href="biomorphs.php">Biomorphs</a></li>
+          <li><a href="monalisa.php">Mona Lisa</a></li>
+        </ul>
       </div>
       
       <div id="main">

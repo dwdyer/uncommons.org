@@ -25,6 +25,12 @@
           population and this is used as the seed for the next generation, with each of the members being
           mutated versions of the selected biomorph.
         </p>
+        <h3>Other Examples</h3>
+        <ul>
+          <li><a href="salesman.php">The Travelling Salesman</a></li>
+          <li><a href="sudoku.php">Sudoku</a></li>
+          <li><a href="monalisa.php">Mona Lisa</a></li>
+        </ul>
       </div>
       
       <div id="main">

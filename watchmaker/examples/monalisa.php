@@ -55,7 +55,13 @@
         <a href="/api/org/uncommons/watchmaker/framework/termination/Stagnation.html">Stagnation</a>
         termination condition in action).  It could run for hours.
       </p>
-
+ 
+      <h3>Other Examples</h3>
+      <ul>
+        <li><a href="salesman.php">The Travelling Salesman</a></li>
+        <li><a href="biomorphs.php">Biomorphs</a></li>
+        <li><a href="sudoku.php">Sudoku</a></li>
+      </ul>
       <?php readfile('../footer.html'); ?>
     </div>
   </body>

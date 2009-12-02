@@ -35,6 +35,12 @@
           routes together without duplicating or omitting any cities.  The fitness function simply calculates the
           total length (in kilometres) of the route.
         </p>
+        <h3>Other Examples</h3>
+        <ul>
+          <li><a href="biomorphs.php">Biomorphs</a></li>
+          <li><a href="sudokue.php">Sudoku</a></li>
+          <li><a href="monalisa.php">Mona Lisa</a></li>
+        </ul>
       </div>
       
       <div id="main">
