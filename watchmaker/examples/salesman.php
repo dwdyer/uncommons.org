@@ -6,6 +6,7 @@
     <meta name="keywords" content="evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, dan, daniel, dyer, swing, travelling, traveling, salesman" />
     <meta name="author" content="Daniel Dyer" />
     <link href="../watchmaker.css" rel="stylesheet" type="text/css" />
+    <?php readfile('../analytics.html'); ?>
   </head>
   <body>
     <div id="container">

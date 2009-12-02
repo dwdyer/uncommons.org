@@ -7,6 +7,7 @@
     <meta name="author" content="Daniel Dyer" />
     <link href="../watchmaker.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
+    <?php readfile('../analytics.html'); ?>
   </head>
   <body>
     <div id="container">
