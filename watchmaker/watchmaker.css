@@ -53,8 +53,8 @@ ul {margin-left: 1em;}
          font-size: 1.2em;
          font-family: Arial, Helvetica, sans-serif;
          margin-bottom: 1.5em;
-         text-align: right;
          border-top: 1px solid #666666;}
+#copyright {float: right;}
 
 .yui-carousel-element li {height: 177px;}
 #examples .yui-carousel-element li {width: 317px; border: 0;}
