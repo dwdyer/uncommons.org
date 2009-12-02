@@ -3,6 +3,7 @@
    border: 0;}
 a {text-decoration: none;
    color: #006699;}
+a:visited {color: #003366;}
 body {line-height: 1.8em;
       font-size: 62.5%;
       font-family: Palatino Linotype, Palatino, serif;
@@ -28,8 +29,7 @@ ul {margin-left: 1em;}
             color: #444444;}
 #main {width: 623px;
        padding-right: 17px;}
-#sidebar {width: 303px;
-          padding-right: 17px;
+#sidebar {width: 320px;
           float: right;}
 
 /* Header styles */
@@ -56,12 +56,27 @@ ul {margin-left: 1em;}
          text-align: right;
          border-top: 1px solid #666666;}
 
+.yui-carousel-element li {height: 176px;}
 #examples .yui-carousel-element li {width: 317px; border: 0;}
 #examples ol li img {float: left; margin: .5em 1em .5em .5em;}
 #examples p {text-align: left; margin-top: 1em; margin-right: .5em;}
 #examples {margin-bottom: 1.8em;}
 
-#books {text-align: center; width: 320px;}
-#books img {margin: 0 1em;}
+#books .yui-carousel-element li {width: 317px; border: 0;}
+#books ol li img {float: right; margin: .5em .5em .5em 1em;}
+#books p {text-align: left; margin-top: 1em; margin-left: .5em;}
+#books {margin-bottom: 1.8em;}
 
 #applet {text-align: center;}
+
+.rssfeedicon {float: right; margin-right: 0;}
+.feedburnerFeedBlock {width: 320px;}
+.feedburnerFeedBlock ul {padding-left: 0;
+                         margin-left: 0;
+                         font-size: 1.4em;
+                         list-style-type: none;}
+.feedburnerFeedBlock li {margin-bottom: 1.286em;}
+.feedburnerFeedBlock .date {font-size: 1em;
+                            font-style: italic;
+                            margin: 0 0 0 0;}
+#creditfooter {display: none;}

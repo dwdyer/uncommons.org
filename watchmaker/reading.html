@@ -1,8 +1,64 @@
-        <h2>Reading</h2>
+        <h2>Background Reading</h2>
         <div id="books">
-          <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0262631857/uncommonsorg-21"><img src="mitchell.jpg" title="An Introduction to Genetic Algorithms" alt="An Introduction to Genetic Algorithms" width="134" height="160"/></a>
-          <a href="http://www.amazon.co.uk/exec/obidos/ASIN/3540401849/uncommonsorg-21"><img src="eiben.jpg" title="Introduction to Evolutionary Computing" walt="Introduction to Evolutionary Computing" width="106" height="160"/></a>
-          <a href="http://www.amazon.co.uk/exec/obidos/ASIN/155860510X/uncommonsorg-21"><img src="banzhaf.jpg" title="Genetic Programming: An Introduction" walt="Genetic Programming: An Introduction" width="128" height="160"/></a>
-          <a href="http://www.amazon.co.uk/exec/obidos/ASIN/155860510X/uncommonsorg-21"><img src="dawkins.jpg" title="The Blind Watchmaker" walt="The Blind Watchmaker" width="104" height="160"/></a>
+          <ol>
+            <li>
+              <a href="http://www.amazon.co.uk/exec/obidos/ASIN/0262631857/uncommonsorg-21"><img src="mitchell.jpg" title="An Introduction to Genetic Algorithms" alt="An Introduction to Genetic Algorithms" width="134" height="160"/></a>
+              <p>
+                <strong>An Introduction to Genetic Algorithms</strong><br/>
+                <em>Melanie Mitchell</em><br/>
+                The definitive introducton to genetic algorithms. An engaging book with a wealth of references.
+              </p>
+            </li>
+            <li>
+              <a href="http://www.amazon.co.uk/exec/obidos/ASIN/3540401849/uncommonsorg-21"><img src="eiben.jpg" title="Introduction to Evolutionary Computing" walt="Introduction to Evolutionary Computing" width="106" height="160"/></a>
+              <p>
+                <strong>Introduction to Evolutionary Computing</strong><br/>
+                <em>A.E. Eiben &amp; J.E. Smith</em><br/>
+                Covers a broad range of topics including evolution strategies, evolutionary and genetic programming, and learning classifier systems.
+              </p>
+            </li>
+            <li>
+              <a href="http://www.amazon.co.uk/exec/obidos/ASIN/155860510X/uncommonsorg-21"><img src="banzhaf.jpg" title="Genetic Programming: An Introduction" walt="Genetic Programming: An Introduction" width="128" height="160"/></a>
+              <p>
+                <strong>Genetic Programming: An Introduction</strong><br/>
+                <em>Wolfgang Banzhaf, Peter Nordin, Robert E. Keller &amp; Frank D. Francone</em><br/>
+                Tree-based, linear and graph-based genetic programming.
+              </p>
+            </li>
+            <li>
+              <a href="http://www.amazon.co.uk/exec/obidos/ASIN/155860510X/uncommonsorg-21"><img src="dawkins.jpg" title="The Blind Watchmaker" walt="The Blind Watchmaker" width="104" height="160"/></a>
+              <p>
+                <strong>The Blind Watchmaker</strong><br/>
+                <em>Richard Dawkins</em><br/>
+                  An accessible introduction to the theory of evolution as it applies to the natural world. Includes Dawkins' accounts of his early
+                  experiments with evolutionary computation.
+              </p>
+            </li>
+          </ol>
         </div>
-
+        <script type="text/javascript">
+          (function () {
+            var carousel;
+            YAHOO.util.Event.onDOMReady(function (ev) {
+              var index = (Math.floor(Math.random() * 4));
+              var carousel = new YAHOO.widget.Carousel("books", {
+                isCircular: true, numVisible: 1
+              });
+              carousel.render();
+              carousel.scrollTo(index);
+            });
+          })();
+        </script>
+        <div>
+          <ul>
+            <li><a href="http://www.talkorigins.org/faqs/genalg/genalg.html">Genetic Algorithms and Evolutionary Computation</a> <em>by Adam Marczyk</em></li>
+            <li><a href="http://www.aip.de/~ast/EvolCompFAQ/">The Hitch-Hiker's Guide to Evolutionary Computation</a> <em>edited by Jörg Heitkötter and David Beasley</em></li>
+            <li><a href="http://www.genetic-programming.com/jkpdf/scjournallong.pdf">Genetic Programming as a Means for Programming Computers by Natural Selection</a> (PDF) <em>by John R. Koza</em></li>
+            <li><a href="http://dces.essex.ac.uk/staff/rpoli/gp-field-guide/">A Field Guide to Genetic Programming</a> <em>by Ricardo Poli, William B. Langdon and Nicholas F. McPhee</em></li>
+            <li><a href="http://geneticargonaut.blogspot.com/">Genetic Argonaut</a> <em>by Marcelo De Brito</em></li>
+          </ul>
+          <a href="http://feeds.feedburner.com/EvolutionaryComputation"><img src="feed.png" width="28" height="28" class="rssfeedicon" alt="RSS Feed" title="New Adventures in Software - Evolutionary Computation Feed"/></a>
+          <h3>Evolutionary Computation<br/>@ New Adventures in Software</h3>
+          <script src="http://feeds.feedburner.com/EvolutionaryComputation?format=sigpro" type="text/javascript" ></script>
+          <noscript><p>Subscribe to RSS headline updates from: <a href="http://feeds.feedburner.com/EvolutionaryComputation"></a><br/>Powered by FeedBurner</p></noscript>
+        </div>

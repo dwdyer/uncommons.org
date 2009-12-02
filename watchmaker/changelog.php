@@ -13,6 +13,12 @@
       <?php readfile('header.html'); ?>
 
       <div id="sidebar">
+        <h2>API Changes</h2>
+        <p>
+          <strong>Pre-1.0 releases of the Watchmaker Framework are not guaranteed to be fully backwards-compatible with previous releases.</strong> Where API changes
+          make sense to improve the design, usability and/or flexibility of the framework, they have been made. The changelog on the left of this
+          page documents all changes made since the first public release.
+        </p>
         <h2>Roadmap</h2>
         <h3>In-Progress (version 0.7.0)</h3>
         <ul>
@@ -33,6 +39,10 @@
         <ul>
           <li>SWT support</li>
         </ul>
+        <p>
+          If you have suggestions for new features or enhancements that are not on this roadmap, please submit them
+          using the <a href="https://watchmaker.dev.java.net/servlets/ProjectIssues">issue tracker</a>.
+        </p>
       </div>
       
       <div id="main">
