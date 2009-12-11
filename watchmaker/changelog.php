@@ -25,7 +25,13 @@
         <ul>
           <li>Island model evolution</li>
           <li>Improved support for steady-state evolution</li>
-          <li>Experimental support for tree-based Genetic Programming</li>
+          <li>Sigma-scaling selection strategy</li>
+        </ul>
+        <h3>Planned (version 0.7.x)</h3>
+        <ul>
+          <li>Evolution Strategies</li>
+          <li>Distributed processing for islands models</li>
+          <li>First-class support for tree-based Genetic Programming (currently only supported as an example application)</li>
         </ul>
         <h3>Planned (version 0.8.0)</h3>
         <ul>
