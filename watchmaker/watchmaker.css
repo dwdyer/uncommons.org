@@ -48,6 +48,9 @@ ul {margin-left: 1em;}
           padding: 0 .5em;}
 .version {font-weight: bold;}
 
+/* Content styles */
+.newfeature {color: #cc0000;}
+
 /* Footer styles */
 #footer {clear: both;
          font-size: 1.2em;
@@ -56,6 +59,7 @@ ul {margin-left: 1em;}
          border-top: 1px solid #666666;}
 #copyright {float: right;}
 
+/* Carousel styles */
 .yui-carousel-element li {height: 177px;}
 #examples .yui-carousel-element li {width: 317px; border: 0;}
 #examples ol li img {float: left; margin: .5em 1em .5em .5em;}
@@ -67,8 +71,10 @@ ul {margin-left: 1em;}
 #books p {text-align: left; margin-top: 1em; margin-left: .5em;}
 #books {margin-bottom: 1.8em;}
 
+/* Demo styles */
 #applet {text-align: center;}
 
+/* Blog feed styles */
 .rssfeedicon {float: right; margin-right: 0;}
 .feedburnerFeedBlock {width: 320px;}
 .feedburnerFeedBlock ul {padding-left: 0;

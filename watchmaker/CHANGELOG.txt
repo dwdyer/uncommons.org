@@ -1,3 +1,51 @@
+Changes in version 0.7.0
+------------------------
+
+* Refactored internals to make it easier for the framework to provide different
+  evolutionary algorithm variants.  Different types of evolutionary algorithm
+  are supported by different sub-classes of AbstractEvolutionEngine, with
+  different implementations of the nextEvolutionStep method.  The main
+  EvolutionEngine implementation is now called GenerationalEvolutionEngine.
+
+* Concurrency control is no longer supported through inheritance.  Removed
+  ConcurrentEvolutionEngine and SequentialEvolutionEngine and added the
+  setSingleThreaded method to AbstractEvolutionEngine.
+
+* Added first-class support for steady-state evolution in the form of the new
+  SteadyStateEvolutionEngine.
+
+* Added SigmaScaling selection strategy.
+
+* Added ListInversion evolutionary operator.  Randomly reverses subsections of
+  lists.
+
+* Added variable probability constructor to ListOrderCrossover.
+
+* Introduced support for island model evolution.
+
+* Added islands view to the evolution monitor so that the state of individual
+  island populations can be tracked.
+
+* Fixed generation numbering in EvolutionEngine.  It was supposed to be
+  zero-based but was starting at 1, which would cause the GenerationCount
+  termination condition to trigger prematurely.
+
+* Ugraded to Uncommons Maths 1.2.1 to take advantage of optimisations.
+
+* Optimised the implementation of BitStringCrossover to take advantage of
+  faster bit swapping operation in Uncommons Maths 1.2.1.
+
+* Converted BitStringMutation to use a more efficient approach.  The
+  probability parameter is now for controlling whether an individual candidate
+  gets mutated, not each separate bit as was the case previously (existing
+  programs should now use higher probabilities accordingly).  How many bits get
+  flipped is now controlled via a secondary parameter.
+
+* Upgraded to Google Collections 1.0 RC5.
+
+* Introduced Swing renderer for example GP trees.
+
+
 Changes in version 0.6.2
 ------------------------
 

@@ -21,13 +21,7 @@
           page documents all changes made since the first public release.
         </p>
         <h2>Roadmap</h2>
-        <h3>In-Progress (version 0.7.0)</h3>
-        <ul>
-          <li>Island model evolution</li>
-          <li>Improved support for steady-state evolution</li>
-          <li>Sigma-scaling selection strategy</li>
-        </ul>
-        <h3>Planned (version 0.7.x)</h3>
+        <h3>Planned (0.7.x releases)</h3>
         <ul>
           <li>Evolution Strategies</li>
           <li>Distributed processing for islands models</li>

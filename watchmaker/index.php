@@ -44,9 +44,9 @@
             The evolvable type is completely decoupled.
           </li>
           <li>
-            <strong>Pluggable Selection Strategies</strong> - Roulette Wheel Selection, Tournament Selection,
-            Rank Selection, Truncation Selection and Stochastic Universal Sampling are all provided.  Alternatively,
-            you can implement your own selection strategy quickly and easily.
+            <strong>Pluggable Selection Strategies</strong> - Roulette Wheel Selection, Tournament Selection
+            and several other selection strategies are provided.  Alternatively, you can implement your own
+            selection strategy quickly and easily.
           </li>
           <li>
             <strong>Flexible Evolution Schemes</strong> - The evolution process can be as simple or as complicated
@@ -56,6 +56,15 @@
           <li>
             <strong>Re-usable Operators for Common Types</strong> - Ready-to-use cross-over and mutation implementations
             are provided for several data types including bit strings, character strings, arrays and lists.
+          </li>
+          <li>
+            <strong>Island Model Evolution</strong> <span class="newfeature">(new in version 0.7.0)</span>
+            - Evolve multiple populations in parallel with periodic migration
+            of individuals between islands.
+          </li>
+          <li>
+            <strong>Steady-State Evolution</strong> <span class="newfeature">(new in version 0.7.0)</span>
+            - Evolve one member of the population at a time.
           </li>
           <li>
             <strong>Interactive Evolutionary Algorithms</strong> - Support for user-guided selection makes the

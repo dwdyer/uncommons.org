@@ -5,21 +5,19 @@
     object-oriented framework for implementing platform-independent evolutionary algorithms
     in Java.
     It is freely available under a permissive Open Source licence.  It can be downloaded from
-    https://watchmaker.dev.java.net.
+    <a class="link" href="http://watchmaker.uncommons.org" target="_top">http://watchmaker.uncommons.org</a>.
   </p><p>
     This chapter introduces the core components of the Watchmaker Framework and shows how
     they can be used to implement simple evolutionary algorithms such as the "Hello World"
     example outlined in the previous chapter.
   </p><div class="section" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="d0e323"></a>The Evolution Engine</h2></div></div></div><a class="indexterm" name="d0e326"></a><a class="indexterm" name="d0e329"></a><p>
       The central object of an evolutionary program built with the Watchmaker Framework is
-      the evolution engine.  An evolution engine is a general-purpose implementation of
-      the evolutionary algorithm outline from chapter 1.
+      the evolution engine.
     </p><p>
       The framework provides multiple implementations of the
       <code class="interfacename">EvolutionEngine</code> interface, but the one that you will
-      usually want to use is <code class="classname">ConcurrentEvolutionEngine</code>.  As its
-      name suggests, it takes advantage of the parallel processing facilities of your
-      computer in order to speed-up the evolutionary process.
+      usually want to use is <code class="classname">GenerationalEvolutionEngine</code>.  This is a
+      general-purpose implementation of the evolutionary algorithm outline from chapter 1.
     </p><p>
       An <code class="interfacename">EvolutionEngine</code> has a single generic type parameter
       that indicates the type of object that it can evolve.
@@ -27,11 +25,11 @@
       Code that creates an engine that can evolve strings would look something like this:
     </p><div class="informalexample"><pre class="programlisting">
 EvolutionEngine&lt;String&gt; engine
-    = <b class="hl-keyword">new</b> ConcurrentEvolutionEngine&lt;String&gt;(candidateFactory,
-                                            evolutionaryOperator,
-                                            fitnessEvaluator,
-                                            selectionStrategy,
-                                            rng);
+    = <b class="hl-keyword">new</b> GenerationalEvolutionEngine&lt;String&gt;(candidateFactory,
+                                              evolutionaryOperator,
+                                              fitnessEvaluator,
+                                              selectionStrategy,
+                                              rng);
       </pre></div><p>
       Once you have created an <code class="interfacename">EvolutionEngine</code>, your program
       is as simple as calling the <code class="methodname">evolve</code> method with appropriate
@@ -39,6 +37,6 @@ EvolutionEngine&lt;String&gt; engine
       However, as you can see from the code snippet above, there is a little bit of work to
       be done first in order to create an <code class="interfacename">EvolutionEngine</code> that
       is configured appropriately for the given problem.
-      The constructor of the <code class="classname">ConcurrentEvolutionEngine</code> class requires
+      The constructor of the <code class="classname">GenerationalEvolutionEngine</code> class requires
       five objects.  These are:
     </p><div class="itemizedlist"><ul type="disc"><li><p>A Candidate Factory</p></li><li><p>An Evolutionary Operator</p></li><li><p>A Fitness Evaluator</p></li><li><p>A Selection Strategy</p></li><li><p>A Random Number Generator</p></li></ul></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch01s03.html">Prev</a>&nbsp;</td><td width="20%" align="center">&nbsp;</td><td width="40%" align="right">&nbsp;<a accesskey="n" href="ch02s02.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Implementing Evolutionary Algorithms&nbsp;</td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">&nbsp;The Candidate Factory</td></tr></table></div></body></html>

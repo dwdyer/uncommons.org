@@ -28,11 +28,11 @@ SelectionStrategy&lt;Object&gt; selection = <b class="hl-keyword">new</b> Roulet
 Random rng = <b class="hl-keyword">new</b> MersenneTwisterRNG();
 
 EvolutionEngine&lt;String&gt; engine
-    = <b class="hl-keyword">new</b> ConcurrentEvolutionEngine&lt;String&gt;(factory,
-                                            pipeline,
-                                            fitnessEvaluator,
-                                            selection,
-                                            rng);
+    = <b class="hl-keyword">new</b> GenerationalEvolutionEngine&lt;String&gt;(factory,
+                                              pipeline,
+                                              fitnessEvaluator,
+                                              selection,
+                                              rng);
       </pre></div><a class="indexterm" name="d0e603"></a><a class="indexterm" name="d0e606"></a><p>
       The listing above only creates the evolution engine, it does not perform any
       evolution.  For that we need to call the <code class="methodname">evolve</code> method.
