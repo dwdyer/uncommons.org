@@ -52,14 +52,14 @@
           <!--[if !IE]>-->
           <object classid="java:org.uncommons.watchmaker.examples.travellingsalesman.TravellingSalesmanApplet.class"
                   type="application/x-java-applet"
-                  archive="watchmaker-examples-0.6.2.jar"
+                  archive="watchmaker-examples-0.7.0.jar"
                   height="480"
                   width="623"
                   standby="Loading the Travelling Salesman Example Applet...">
           <!--<![endif]-->
             <object classid="clsid:08B0E5C0-4FCB-11CF-AAA5-00401C608501"
                     type="application/x-java-applet"
-                    archive="watchmaker-examples-0.6.2.jar"
+                    archive="watchmaker-examples-0.7.0.jar"
                     height="480"
                     width="623"
                     standby="Loading the Travelling Salesman Example Applet...">

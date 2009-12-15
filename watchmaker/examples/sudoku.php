@@ -57,14 +57,14 @@
           <!--[if !IE]>-->
           <object classid="java:org.uncommons.watchmaker.examples.sudoku.SudokuApplet.class"
                   type="application/x-java-applet"
-                  archive="watchmaker-examples-0.6.2.jar"
+                  archive="watchmaker-examples-0.7.0.jar"
                   height="600"
                   width="503"
                   standby="Loading the Sudoku Solver Applet...">
           <!--<![endif]-->
             <object classid="clsid:08B0E5C0-4FCB-11CF-AAA5-00401C608501"
                     type="application/x-java-applet"
-                    archive="watchmaker-examples-0.6.2.jar"
+                    archive="watchmaker-examples-0.7.0.jar"
                     height="600"
                     width="503"
                     standby="Loading the Sudoku Solver Applet...">
