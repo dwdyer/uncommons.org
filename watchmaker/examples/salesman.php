@@ -39,7 +39,7 @@
         <h3>Other Examples</h3>
         <ul>
           <li><a href="biomorphs.php">Biomorphs</a></li>
-          <li><a href="sudokue.php">Sudoku</a></li>
+          <li><a href="sudoku.php">Sudoku</a></li>
           <li><a href="monalisa.php">Mona Lisa</a></li>
         </ul>
       </div>

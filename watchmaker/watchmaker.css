@@ -86,3 +86,12 @@ ul {margin-left: 1em;}
                             font-style: italic;
                             margin: 0 0 0 0;}
 #creditfooter {display: none;}
+
+.sotag {font-family: Arial, sans-serif;
+        font-size: .786em;
+        color: #3e6d8e;
+        background-color: #e0eaf1;
+        border-right: 1px solid #7f9fb6;
+        border-bottom: 1px solid #3e6d8e;
+        margin: 2px 2px 2px 0;
+        padding: 3px 4px;}
