@@ -55,12 +55,14 @@
           <!-- The nested object tags are necessary to work in both IE (inner tag) and Firefox (outer
                tag).  Opera will work with either.  It should not be necessary to modify this code. -->
           <!--[if !IE]>-->
-          <object classid="java:org.uncommons.watchmaker.examples.sudoku.SudokuApplet.class"
-                  type="application/x-java-applet"
+          <object type="application/x-java-applet"
                   archive="watchmaker-examples-0.7.0.jar"
                   height="600"
                   width="503"
                   standby="Loading the Sudoku Solver Applet...">
+            <param name="java_arguments" value="-Djnlp.packEnabled=true" />
+            <param name="codebase_lookup" value="false" />
+            <param name="code" value="org.uncommons.watchmaker.examples.sudoku.SudokuApplet.class" />
           <!--<![endif]-->
             <object classid="clsid:08B0E5C0-4FCB-11CF-AAA5-00401C608501"
                     type="application/x-java-applet"
@@ -68,6 +70,8 @@
                     height="600"
                     width="503"
                     standby="Loading the Sudoku Solver Applet...">
+              <param name="java_arguments" value="-Djnlp.packEnabled=true" />
+              <param name="codebase_lookup" value="false" />
               <param name="code" value="org.uncommons.watchmaker.examples.sudoku.SudokuApplet.class" />
             </object>
           <!--[if !IE]>-->
