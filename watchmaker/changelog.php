@@ -3,8 +3,8 @@
   <head>
     <title>Watchmaker Framework - Changelog</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="description" content="Watchmaker is an extensible, high-performance, multi-threaded, object-oriented framework for implementing platform-independent evolutionary computation (evolutionary/genetic algorithms/programming) in Java." />
-    <meta name="keywords" content="evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, dan, daniel, dyer, swing, changelog, roadmap" />
+    <meta name="description" content="Changelog and roadmap for the Watchmaker Framework for Evolutionary Computation." />
+    <meta name="keywords" content="changelog, roadmap, evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework" />
     <meta name="author" content="Daniel Dyer" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
     <?php readfile('analytics.html'); ?>

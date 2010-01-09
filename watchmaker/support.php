@@ -3,8 +3,8 @@
   <head>
     <title>Watchmaker Framework - Support</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="description" content="Watchmaker is an extensible, high-performance, multi-threaded, object-oriented framework for implementing platform-independent evolutionary computation (evolutionary/genetic algorithms/programming) in Java." />
-    <meta name="keywords" content="evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, dan, daniel, dyer, swing, changelog, roadmap" />
+    <meta name="description" content="Support and documentation for the Watchmaker Framework for Evolutionary Computation." />
+    <meta name="keywords" content="support, documentation, discussion, forum, questions, bugs, issues, enhancements, evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework" />
     <meta name="author" content="Daniel Dyer" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
     <?php readfile('analytics.html'); ?>
@@ -35,8 +35,9 @@
           If you are new to StackOverflow, be sure to read <a href="http://stackoverflow.com/faq">the FAQ</a> first.
           If you ask a question about the Watchmaker Framework, we recommend that you tag it with the following tags so
           that it can be found by the people who can help you and can be ignored by those who are not interested:
-          <span class="sotag">watchmaker</span> <span class="sotag">evolutionary-algorithms</span>
-          <span class="sotag">java</span>
+          <a href="http://stackoverflow.com/questions/tagged/watchmaker" class="sotag">watchmaker</a>
+          <a href="http://stackoverflow.com/questions/tagged/evolutionary-algorithms" class="sotag">evolutionary-algorithms</a>
+          <a href="http://stackoverflow.com/questions/tagged/java" class="sotag">java</a>
         </p>
         <h2>Bugs / Enhancement Requests</h2>
         <p>

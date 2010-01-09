@@ -3,7 +3,7 @@
   <head>
     <title>Watchmaker Framework - Biomorphs Example</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="keywords" content="evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, dan, daniel, dyer, swing, biomorphs, interactive, selection" />
+    <meta name="keywords" content="evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, swing, biomorphs, interactive, selection" />
     <meta name="author" content="Daniel Dyer" />
     <link href="../watchmaker.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
