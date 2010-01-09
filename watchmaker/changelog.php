@@ -23,7 +23,6 @@
         <h2>Roadmap</h2>
         <h3>Planned (0.7.x releases)</h3>
         <ul>
-          <li>Evolution Strategies</li>
           <li>Distributed processing for islands models</li>
           <li>First-class support for tree-based Genetic Programming (currently only supported as an example application)</li>
         </ul>

@@ -67,6 +67,11 @@
             - Evolve one member of the population at a time.
           </li>
           <li>
+            <strong>Evolution Strategies</strong> <span class="newfeature">(new in version 0.7.1)</span>
+            - Support for both (&#x03bc;+&#x03bb;) and (&#x03bc;,&#x03bb;)
+            <a href="http://en.wikipedia.org/wiki/Evolution_strategy">evolution strategies</a>.  
+          </li>
+          <li>
             <strong>Interactive Evolutionary Algorithms</strong> - Support for user-guided selection makes the
             framework suitable for applictions in which defining an adequate fitness function is difficult, such as
             evolutionary art and evolutionary music.

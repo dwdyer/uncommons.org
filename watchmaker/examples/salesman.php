@@ -51,7 +51,7 @@
                tag).  Opera will work with either.  It should not be necessary to modify this code. -->
           <!--[if !IE]>-->
           <object type="application/x-java-applet"
-                  archive="watchmaker-examples-0.7.0.jar"
+                  archive="watchmaker-examples-0.7.1.jar"
                   height="480"
                   width="623"
                   standby="Loading the Travelling Salesman Example Applet...">
@@ -61,7 +61,7 @@
           <!--<![endif]-->
             <object classid="clsid:08B0E5C0-4FCB-11CF-AAA5-00401C608501"
                     type="application/x-java-applet"
-                    archive="watchmaker-examples-0.7.0.jar"
+                    archive="watchmaker-examples-0.7.1.jar"
                     height="480"
                     width="623"
                     standby="Loading the Travelling Salesman Example Applet...">
