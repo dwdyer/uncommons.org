@@ -11,7 +11,7 @@
   </head>
   <body class="yui-skin-sam">
     <div id="container">
-      <?php readfile('header.html'); ?>
+      <?php readfile('compactheader.html'); ?>
         <h2>Current Release</h2>
         <p>
           The latest stable release of the Watchmaker Framework is available from the

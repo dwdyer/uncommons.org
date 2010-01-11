@@ -11,7 +11,7 @@
   </head>
   <body class="yui-skin-sam">
     <div id="container">
-      <?php readfile('header.html'); ?>
+      <?php readfile('compactheader.html'); ?>
 
       <div id="sidebar">
         <h2>API Changes</h2>

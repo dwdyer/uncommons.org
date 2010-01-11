@@ -11,7 +11,7 @@
   </head>
   <body class="yui-skin-sam">
     <div id="container">
-      <?php readfile('header.html'); ?>
+      <?php readfile('compactheader.html'); ?>
         <h2>Documentation</h2>
         <p>
           In an ideal world, all your Watchmaker Framework questions would be answered by the documentation.  The world

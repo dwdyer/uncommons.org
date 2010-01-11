@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="container">
-      <?php readfile('../header.html'); ?>
+      <?php readfile('../compactheader.html'); ?>
 
       <h2>Evolving The Mona Lisa</h2>
       <div id="applet">
