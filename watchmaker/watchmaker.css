@@ -10,8 +10,8 @@ body {line-height: 1.8em;
       background-color: #ffffff;}
 h1, h2, h3 {font-weight: bold;
             font-variant: small-caps;}
-h1 {font-size: 3em;
-    margin-bottom: .6em;}
+h1 {font-size: 3.6em;
+    margin-bottom: .5em;}
 h2 {font-size: 2.4em;
     margin-bottom: .75em;}
 h3 {font-size: 1.8em;
@@ -33,19 +33,20 @@ ul {margin-left: 1em;}
           float: right;}
 
 /* Header styles */
-#title {margin-top: 3.6em;}
+#title {margin-top: 2.1em; text-align: center;}
+#title h1 {margin-bottom: .1em;}
+#title h2 {font-size: 1.8em; margin-bottom: .94375em;}
 #tagline {font-size: 1.5em;
           margin-top: -1.2em;
           margin-bottom: 1.2em;}
-#ribbon {font-size: 1.5em;
+#ribbon {clear: both;
+         text-align: center;
+         font-size: 1.5em;
          font-family: Arial, Helvetica, sans-serif;
-         margin-bottom: 1.2em;
-         border-top: 1px solid #666666;
-         border-bottom: 1px solid #666666;}
-#links {float: right;}
-#links a {display: inline-block;
-          font-weight: bold;
-          padding: 0 .5em;}
+         margin-bottom: 1.2em;}
+#ribbon a {display: inline-block;
+           font-weight: bold;
+           padding-left: .75em;}
 .version {font-weight: bold;}
 
 /* Content styles */
@@ -57,7 +58,7 @@ ul {margin-left: 1em;}
          font-family: Arial, Helvetica, sans-serif;
          margin-bottom: 1.5em;
          border-top: 1px solid #666666;}
-#copyright {float: right;}
+#logocredit {float: right;}
 
 /* Carousel styles */
 .yui-carousel-element li {height: 177px;}
