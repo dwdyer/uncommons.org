@@ -46,7 +46,7 @@ ul {margin-left: 1em;}
            padding-left: .75em;}
 .version {font-weight: bold;}
 #compactheader {display: inline-block;}
-#logosmall {margin-right: 1em;}
+#logosmall {margin-right: 1em; margin-top: .75em; margin-bottom: -.75em;}
 #compactheader #title {margin-top: 1.8em; text-align: left;}
 #compactheader #title h2 {font-size: 1.8em; margin-bottom: 0;}
 #compactheader #ribbon a {padding-right: .75em; padding-left: 0;}
