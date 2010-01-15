@@ -1,3 +1,4 @@
+<?php echo '<?xml version="1.0" encoding="utf-8" ?>'."\n" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
@@ -20,20 +21,29 @@
           If you find the documentation ambiguous, misleading or just plain wrong, please file a bug report
           (see below) and we will improve it.
         </p>
-        <h2>Forum</h2>
+        <h2>Discussion Group</h2>
         <p>
           If you can't find the answer to your question in the documentation, consider asking a question
-          on the <a href="https://watchmaker.dev.java.net/servlets/ForumMessageList?forumID=2283">Watchmaker Framework
-          forum</a> at Java.net.  The traffic is low but you should get a response to your query fairly promptly.
-          You will need to be a <a href="https://www.dev.java.net/servlets/Join">registered Java.net user</a> in order
-          to post on the forum.
+          in the <a href="http://groups.google.com/group/watchmaker">Watchmaker Framework group/mailing list</a>
+          at Google Groups (<a href="mailto:watchmaker@googlegroups.com">watchmaker@googlegroups.com</a>).
+          The traffic is low but you should get a response to your query fairly promptly.
         </p>
+        <img id="grouplogo" src="http://groups.google.com/intl/en/images/logos/groups_logo_sm.gif"
+             height="30" width="140" alt="Google Groups"/>
+        <form action="http://groups.google.com/group/watchmaker/boxsubscribe">
+          <fieldset>
+            Subscribe to the <strong>Watchmaker Framework for Evolutionary Computation</strong> group<br/>
+            <input type="hidden" name="hl" value="en" />
+            Email: <input type="text" name="email" />
+            <input type="submit" name="sub" value="Subscribe" />
+          </fieldset>
+        </form>
         <h2>StackOverflow</h2>
         <p>
           Alternatively, you can ask your Watchmaker questions at
           <a href="http://www.stackoverflow.com">StackOverflow.com</a>, the leading programming Q&amp;A site.
           If you are new to StackOverflow, be sure to read <a href="http://stackoverflow.com/faq">the FAQ</a> first.
-          If you ask a question about the Watchmaker Framework, we recommend that you tag it with the following tags so
+          If you ask a question about the Watchmaker Framework, it's best to tag it with the following tags so
           that it can be found by the people who can help you and can be ignored by those who are not interested:
           <a href="http://stackoverflow.com/questions/tagged/watchmaker" class="sotag">watchmaker</a>
           <a href="http://stackoverflow.com/questions/tagged/evolutionary-algorithms" class="sotag">evolutionary-algorithms</a>
@@ -43,7 +53,7 @@
         <p>
           If you think you've found a bug in the Watchmaker Framework, or you have a suggestion for
           an improvement, please enter the details in the
-          <a href="https://watchmaker.dev.java.net/servlets/ProjectIssues">issue tracker</a> at Java.net.
+          <a href="http://github.com/dwdyer/watchmaker/issues">issue tracker</a> at GitHub.
         </p>
       <?php readfile('footer.html'); ?>
     </div>

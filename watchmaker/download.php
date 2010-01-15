@@ -15,8 +15,8 @@
         <h2>Current Release</h2>
         <p>
           The latest stable release of the Watchmaker Framework is available from the
-          <a href="https://watchmaker.dev.java.net/servlets/ProjectDocumentList?folderID=6343">current release
-          folder on Java.net</a>.  The download is available as either a ZIP or TGZ archive.  The contents are the
+          <a href="http://github.com/dwdyer/watchmaker/downloads">downloads page</a>
+          on GitHub.  The download is available as either a ZIP or TGZ archive.  The contents are the
           same for each file and include API documentation and source code for several example programs.
         </p>
         <p>
@@ -24,10 +24,9 @@
         </p>
         <h2>Archive Releases</h2>
         <p>
-          Binaries for all previous Watchmaker releases are available for download from the
-          <a href="https://watchmaker.dev.java.net/servlets/ProjectDocumentList?folderID=6342">archived releases
-          folder on Java.net</a>.  Refer to the <a href="changelog.php">changelog</a> to learn the differences between
-          releases.
+          You can also download source snapshots of all previous Watchmaker releases from the GitHub
+          <a href="http://github.com/dwdyer/watchmaker/downloads">downloads page</a>.
+          Refer to the <a href="changelog.php">changelog</a> to learn the differences between versions.
         </p>
         <h2>Maven Users</h2>
         <p>
@@ -36,16 +35,14 @@
         </p>
         <h2>Source Code</h2>
         <p>
-          The latest source code is available from the
-          <a href="https://watchmaker.dev.java.net/source/browse/watchmaker/">Subversion repository on Java.net</a>.
+          The latest source code is available from the <a href="http://git-scm.com/">Git</a> repository on
+          <a href="http://github.com/dwdyer/watchmaker">GitHub</a>.
+          If you want to submit changes, fork the Git repository, make your changes and then send a pull
+          request to have your changes considered for merging into the master repository.
         </p>
         <p>
           Building Watchmaker from source requires <a href="http://java.sun.com/javase/downloads/index.jsp">JDK 5 or
           later</a> and <a href="http://ant.apache.org">Apache Ant 1.7.1 or later</a>.
-        </p>
-        <p>
-          Proposed patches can be submitted via the
-          <a href="https://watchmaker.dev.java.net/servlets/ProjectIssues">issue tracker</a>.
         </p>
       <?php readfile('footer.html'); ?>
     </div>

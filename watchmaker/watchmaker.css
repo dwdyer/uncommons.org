@@ -1,12 +1,13 @@
-* {padding: 0;
-   margin: 0;
-   border: 0;}
+/* Reset */
+body, fieldset, form, h1, h2, h3, img, ol, p, table, td, tr, ul {padding: 0; margin: 0; border: 0;}
+
 a {text-decoration: none;
    color: #006699;}
 a:visited {color: #003366;}
 body {line-height: 1.8em;
       font-size: 62.5%;
       font-family: Palatino Linotype, Palatino, serif;
+      padding: 0 2em;
       background-color: #ffffff;}
 h1, h2, h3 {font-weight: bold;
             font-variant: small-caps;}
@@ -16,8 +17,8 @@ h2 {font-size: 2.4em;
     margin-bottom: .75em;}
 h3 {font-size: 1.8em;
     margin-bottom: 1em;}
-p, ul {font-size: 1.4em;
-       margin: 1.286em 0;}
+fieldset, p, ul {font-size: 1.4em;
+                 margin: 1.286em 0;}
 pre {font-family: Monaco, Courier New, monospace; font-size: 1.2em; margin-bottom: 1.5em;}
 strong {color: #000000;}
 ul {margin-left: 1em;}
@@ -99,3 +100,6 @@ ul {margin-left: 1em;}
         margin: 2px 2px 2px 0;
         padding: 3px 4px;}
 a:visited.sotag {color: #3e6d8e;}
+
+#grouplogo {float: left; margin-right: 2em; margin-top: 5px;}
+#githubribbon {position: absolute; top: 0; right: 0;}
