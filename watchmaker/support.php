@@ -21,6 +21,11 @@
           If you find the documentation ambiguous, misleading or just plain wrong, please file a bug report
           (see below) and we will improve it.
         </p>
+        <p>
+          There is also <a href="http://wiki.github.com/dwdyer/watchmaker/">a Wiki at GitHub</a>.  This a
+          collaboratively edited resource that users are encouraged to contribute to.  It includes ad hoc
+          documentation that does not fit anywhere else.
+        </p>
         <h2>Discussion Group</h2>
         <p>
           If you can't find the answer to your question in the documentation, consider asking a question

@@ -41,8 +41,9 @@
           request to have your changes considered for merging into the master repository.
         </p>
         <p>
-          Building Watchmaker from source requires <a href="http://java.sun.com/javase/downloads/index.jsp">JDK 5 or
-          later</a> and <a href="http://ant.apache.org">Apache Ant 1.7.1 or later</a>.
+          <a href="http://wiki.github.com/dwdyer/watchmaker/building-from-source">Building Watchmaker from source</a>
+          requires <a href="http://java.sun.com/javase/downloads/index.jsp">JDK 5 or later</a> and
+          <a href="http://ant.apache.org">Apache Ant 1.7.1 or later</a>.
         </p>
       <?php readfile('footer.html'); ?>
     </div>
