@@ -42,7 +42,7 @@
         </ul>
         <p>
           If you have suggestions for new features or enhancements that are not on this roadmap, please submit them
-          using the <a href="https://watchmaker.dev.java.net/servlets/ProjectIssues">issue tracker</a>.
+          using the <a href="http://github.com/dwdyer/watchmaker/issues">issue tracker</a>.
         </p>
       </div>
       
