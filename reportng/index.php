@@ -44,8 +44,8 @@
       </p>
       <p>
         The current version is <a href="http://github.com/dwdyer/reportng/downloads">1.1.2</a>,
-        which has been tested with TestNG 5.12 (it should work with any version of TestNG after 5.0, but this has not been
-        tested).
+        which has been tested with TestNG 5.12 and 5.13.1 (it should work with any version of TestNG after 5.0,
+        but this has not been tested).
       </p>
       <h3>Sample Reports</h3>
       <img src="overview.png" alt="Report overview page." width="511" height="172" style="float: left; clear: right; margin-right: 2em; margin-bottom: 2em;"/>
