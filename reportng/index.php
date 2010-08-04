@@ -43,7 +43,7 @@
         <a href="http://github.com/dwdyer/reportng/issues">issue tracker</a>.
       </p>
       <p>
-        The current version is <a href="http://github.com/dwdyer/reportng/downloads">1.1.1</a>,
+        The current version is <a href="http://github.com/dwdyer/reportng/downloads">1.1.2</a>,
         which has been tested with TestNG 5.12 (it should work with any version of TestNG after 5.0, but this has not been
         tested).
       </p>
@@ -87,7 +87,7 @@
         &lt;/testng&gt;
       </pre>
       <p>
-        The <code>reportng-1.1.1.jar</code> and <code>velocity-dep-1.4.jar</code> files must be
+        The <code>reportng-1.1.2.jar</code> and <code>velocity-dep-1.4.jar</code> files must be
         included in the classpath used to run the tests.
       </p>
       <h3>Other Build Systems</h3>
