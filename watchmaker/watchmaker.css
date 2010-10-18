@@ -61,7 +61,7 @@ ul {margin-left: 1em;}
          font-family: Arial, Helvetica, sans-serif;
          margin-bottom: 1.5em;
          border-top: 1px solid #666666;}
-#logocredit {float: right;}
+#credit {float: right;}
 
 /* Carousel styles */
 .yui-carousel-element li {height: 177px;}

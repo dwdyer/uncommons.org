@@ -17,13 +17,6 @@
   <body class="yui-skin-sam">
     <div id="container">
       <?php readfile('header.html'); ?>
-      <p style="text-align: center;">
-        <em>
-          Read <a href="http://blog.uncommons.org/2010/01/11/open-source-graphic-design-new-watchmaker-framework-logo/">about
-          the Watchmaker Framework's new logo</a>.  The logo is the creation of
-          <a href="http://www.charlesburdett.com">Charles Burdett</a>.
-        </em>
-      </p>
       <p>
         The Watchmaker Framework is an extensible, high-performance, object-oriented framework for implementing platform-independent
         <a href="http://en.wikipedia.org/wiki/Evolutionary_algorithm">evolutionary/genetic algorithms</a> in Java. The framework

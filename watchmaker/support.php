@@ -60,6 +60,10 @@
           an improvement, please enter the details in the
           <a href="http://github.com/dwdyer/watchmaker/issues">issue tracker</a> at GitHub.
         </p>
+        <h2>Commercial Support and Consulting</h2>
+        <p>
+          For dedicated commercial support and/or consultancy, please <a href="http://rectangularsoftware.com/contact.php">contact Rectangular Software Ltd</a>.
+        </p>
       <?php readfile('footer.html'); ?>
     </div>
   </body>
