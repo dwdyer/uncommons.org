@@ -50,5 +50,6 @@ ul {margin-left: 1em;}
          font-family: Arial, Helvetica, sans-serif;
          margin-bottom: 1.5em;
          border-top: 1px solid #666666;}
+#credit {float: right;}
 
 #githubribbon {position: absolute; top: 0; right: 0;}
