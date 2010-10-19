@@ -117,6 +117,7 @@
        <p>
          Experimental tools for building modular software with <a href="http://ant.apache.org">Apache Ant</a>.
          See also <a href="http://blog.uncommons.org/2007/10/25/15-tips-for-better-ant-builds/">15 Tips for Better Ant Builds</a>.
+         Includes a pure Java toolchain for rendering DocBook documentation and experimental macros for building Android projects.
        </p>
        <h2><a href="http://dwdyer.github.com/ansiconsolelogger">ANSI Console Logger</a></h2>
        <p>

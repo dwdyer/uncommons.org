@@ -51,7 +51,7 @@
           If you ask a question about the Watchmaker Framework, it's best to tag it with the following tags so
           that it can be found by the people who can help you and can be ignored by those who are not interested:
           <a href="http://stackoverflow.com/questions/tagged/watchmaker" class="sotag">watchmaker</a>
-          <a href="http://stackoverflow.com/questions/tagged/evolutionary-algorithms" class="sotag">evolutionary-algorithms</a>
+          <a href="http://stackoverflow.com/questions/tagged/evolutionary-algorithm" class="sotag">evolutionary-algorithm</a>
           <a href="http://stackoverflow.com/questions/tagged/java" class="sotag">java</a>
         </p>
         <h2>Bugs / Enhancement Requests</h2>
