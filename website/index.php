@@ -82,7 +82,7 @@
          example applications, some of which you can try out by clicking on the images to the right of this text.
        </p>
        <ul>
-         <li><a href="https://watchmaker.dev.java.net/servlets/ProjectDocumentList?folderID=6343">Download</a></li>
+         <li><a href="http://github.com/dwdyer/watchmaker/downloads">Download</a></li>
          <li><a href="http://watchmaker.uncommons.org/api/">API Documentation</a></li>
          <li><a href="http://watchmaker.uncommons.org/manual/">User Manual</a></li>
        </ul>
@@ -99,7 +99,7 @@
          combinatorics and statistics.
        </p>
        <p>
-         <b>WebStart Demo:</b> <a href="https://uncommons-maths.dev.java.net/demo/demo.jnlp">Probability Distributions</a>
+         <b>WebStart Demo:</b> <a href="http://maths.uncommons.org/demo/demo.jnlp">Probability Distributions</a>
        </p>
        <p>A Java Programer's Guide to Random Numbers: 
          <a href="http://blog.uncommons.org/2008/04/03/a-java-programmers-guide-to-random-numbers-part-1-beyond-javautilrandom/">Part 1</a>,
