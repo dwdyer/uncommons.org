@@ -20,9 +20,9 @@
 
 <div style="text-align: center; margin: 2em;">
 <script type="text/javascript"><!--
-google_ad_client = "pub-7687051739165693";
-/* Blog comments */
-google_ad_slot = "4534691390";
+google_ad_client = "pub-9021348951632792";
+/* NAIS Blog Comments 468x60 */
+google_ad_slot = "3479334793";
 google_ad_width = 468;
 google_ad_height = 60;
 //-->

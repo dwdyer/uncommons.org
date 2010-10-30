@@ -102,7 +102,7 @@ p {
 /* 2)-=-=-=- Structure -=-=-=- */
 
 #container {
-	width: 915px;
+	width: 960px;
 	margin: 0 auto;
 	text-align: left;
 	}
@@ -205,14 +205,6 @@ p.comment_meta {
 	margin: 10px 0 0 10px;
 	}
 
-.warning p { /* Used on the search page (image will appear if no result is found) */
-	background: url(images/warning.gif) no-repeat left;
-	height: 160px;
-	padding: 20px 0 0 90px;
-	font-size: 1.5em;
-	margin: 0 0 0 10px;
-	}
-
 .postinput {
 	margin-left: 10px;
 	}
@@ -221,20 +213,15 @@ p.comment_meta {
 
 #right {
 	float: right;
-	width: 250px;
+	width: 275px;
 	padding: 10px 15px;
-	
-	/* Box model hack used for IE5.5/5 */
-	voice-family: "\"}\""; 
-  	voice-family: inherit;
-  	width: 230px;
 	}
 
 #right h2 {
 	font-size: 1.4em;
 	margin: 20px 0 0 0;
 	font-weight: normal;
-        color: #3F3F3F;
+    color: #3F3F3F;
 	}
 
 #sidebar {
@@ -275,56 +262,6 @@ p.comment_meta {
 	margin-top: -5px;
 	}
 
-#search {
-	background: url(images/search.gif) no-repeat;
-	height: 56px;
-	margin: 0 auto;
-	padding-top: 22px;
-	}
-
-#search h3 {
-	font-size: 1.4em;
-	margin: 20px 0 -10px 0;
-	font-weight: normal;
-	}
-
-p.searchinfo {
-	margin: 2px 0 -8px 2px;
-        font-size: .9em;
-	color: #999;
-	}
-
-.searchfield {
-	background: #fff;
-	border: 1px solid #ACE149;
-	color: #668C12;
-	padding: 2px 5px 1px 5px;
-	width: 160px;
-	}
-
-.searchfield:hover {
-	border: 1px solid #BFBFBF;
-	color: #949494;
-	}
-
-.submit {
-	background: url(images/search_submit.gif) no-repeat;
-	height: 20px;
-	width: 52px;
-	border: 0;
-	margin-left: 2px;
-	text-indent: -9999px;
-	cursor: pointer;
-	}
-
-.submit:hover {
-	background: url(images/search_submit.gif) no-repeat 0 -20px;
-	height: 20px;
-	width: 52px;
-	border: 0;
-	margin-left: 2px;
-	cursor: pointer;
-	}
 
 .themes {
 	font-size: .9em;
@@ -369,7 +306,7 @@ textarea {
 	border: 1px solid #BFBFBF;
 	color: #949494;
 	padding: 2px 5px 1px 5px;
-	width: 450px;
+	width: 600px;
 	}
 
 textarea:hover {

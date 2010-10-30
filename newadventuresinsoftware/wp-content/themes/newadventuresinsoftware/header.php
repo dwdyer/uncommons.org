@@ -43,8 +43,8 @@
 	<p><a href="#search" title="Skip to search" accesskey="s">Skip to search - Accesskey = s</a></p>
 </div>
 <hr />
-<a href="http://feeds.feedburner.com/NewAdventuresInSoftware"><img src="/wp-content/themes/newadventuresinsoftware/images/feed.png" alt="RSS Feed" style="border: 0px; position: absolute; margin: -40px 0px 0px 873px;" height="36" width="36"/></a>
-<a href="http://feeds.feedburner.com/NewAdventuresInSoftware"><img src="http://feeds.feedburner.com/~fc/NewAdventuresInSoftware?bg=78A515&amp;fg=444444&amp;anim=0" height="26" width="88" style="border: 0px; position: absolute; margin: -30px 0px 0px 775px;" alt="" /></a>
+<a href="http://feeds.feedburner.com/NewAdventuresInSoftware"><img src="/wp-content/themes/newadventuresinsoftware/images/feed.png" alt="RSS Feed" style="border: 0px; position: absolute; margin: -40px 0px 0px 918px;" height="36" width="36"/></a>
+<a href="http://feeds.feedburner.com/NewAdventuresInSoftware"><img src="http://feeds.feedburner.com/~fc/NewAdventuresInSoftware?bg=78A515&amp;fg=444444&amp;anim=0" height="26" width="88" style="border: 0px; position: absolute; margin: -30px 0px 0px 820px;" alt="" /></a>
 	<h1><a href="<?php bloginfo('url'); ?>"><img src="/wp-content/themes/newadventuresinsoftware/images/nais.png" alt="<?php bloginfo('name'); ?>" width="608" height="47" style="border: 0px;"/></a></h1>
 	<!-- Tag line description is off by default. Please see readme.txt or CSS(h1,tagline) for more info
 		<div class="tagline"><?php // remove bloginfo('description'); ?></div> 
