@@ -86,7 +86,7 @@
          <li><a href="http://watchmaker.uncommons.org/api/">API Documentation</a></li>
          <li><a href="http://watchmaker.uncommons.org/manual/">User Manual</a></li>
        </ul>
-       <h2><a href="http://dwdyer.github.com/zeitgeist">Zeitgeist</a></h2>
+       <h2><a href="http://zeitgeist.uncommons.org">Zeitgeist</a></h2>
        <p>
          Zeitgeist is an intelligent RSS news aggregator.  It collates articles from several sources and identifies common themes.
          It can be used to publish web pages of current topical news stories with related links and relevant photos.
