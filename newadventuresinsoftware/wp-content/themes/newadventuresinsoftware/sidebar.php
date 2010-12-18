@@ -7,8 +7,8 @@
       by Dan Dyer
     </h3>
     <p>
-      <a href="mailto:blog@uncommons.org">blog@uncommons.org</a><br />      
-      <a href="http://www.dandyer.co.uk" rel="me">www.dandyer.co.uk</a>
+      <a href="http://dandyer.co.uk" rel="me">dandyer.co.uk</a> / <a href="http://uncommons.org">uncommons.org</a><br/>
+      <small>Hosted by <a href="http://rectangularsoftware.com">Rectangular Software</a></small>
     </p>      
   </div>
 
