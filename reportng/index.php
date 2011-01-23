@@ -92,16 +92,20 @@
       </p>
       <h3>Other Build Systems</h3>
       <p>
-        If you are not using Ant to run TestNG (i.e. you are using Maven, the command line or an IDE plug-in),
-        please refer to the <a href="http://testng.org/doc/documentation-main.html#running-testng">TestNG documentation</a>
-        to find out how to register custom listeners/reporters.  <a href="http://maven.apache.org/">Maven</a> users can
-        find the latest version of ReportNG in the <a href="https://maven2-repository.dev.java.net/">Java.net Maven 2 repository</a>.
+        If you use <a href="http://maven.apache.org">Maven</a>, you may find 
+        <a href="http://solidsoft.wordpress.com/2011/01/23/better-looking-html-test-reports-for-testng-with-reportng-maven-guide/">Marcin Zajączkowski's instructions</a>
+        helpful.
+        Maven users can find the latest version of ReportNG in the <a href="https://maven2-repository.dev.java.net/">Java.net Maven 2 repository</a>.
       </p>
       <p>
         If you are using <a href="http://www.gradle.org/">Gradle</a>, Tomek Kaczanowski has written
         <a href="http://kaczanowscy.pl/tomek/2009-12/better-looking-test-reports-with-reportng">these instructions</a>
         on how to use ReportNG.
       </p>
+      <p>
+        If you are using the command line, an IDE plug-in or some other build system,
+        please refer to the <a href="http://testng.org/doc/documentation-main.html#running-testng">TestNG documentation</a>
+        to find out how to register custom listeners/reporters.
       <h3>Supported System Properties</h3>
       <p>
         The following optional system properties can be set (via nested <code>&lt;sysproperty&gt;</code> elements
