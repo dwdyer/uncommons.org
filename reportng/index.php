@@ -43,7 +43,7 @@
         <a href="http://github.com/dwdyer/reportng/issues">issue tracker</a>.
       </p>
       <p>
-        The current version is <a href="http://github.com/dwdyer/reportng/downloads">1.1.2</a>,
+        The current version is <a href="http://github.com/dwdyer/reportng/downloads">1.1.3</a>,
         which has been tested with TestNG 5.12 and 5.13.1 (it should work with any version of TestNG after 5.0,
         but this has not been tested).
       </p>
@@ -87,7 +87,7 @@
         &lt;/testng&gt;
       </pre>
       <p>
-        The <code>reportng-1.1.2.jar</code> and <code>velocity-dep-1.4.jar</code> files must be
+        The <code>reportng-1.1.3.jar</code> and <code>velocity-dep-1.4.jar</code> files must be
         included in the classpath used to run the tests.
       </p>
       <h3>Other Build Systems</h3>
@@ -171,6 +171,11 @@
           <a href="http://ant.apache.org/manual/OptionalTasks/junitreport.html">Ant's junitreport task</a>,
           do not have a notion of skipped tests.  For these tools the dialect can be set to
           <code>"junit"</code> and skipped tests will be marked as failures.
+        </dd>
+        <dt><code>org.uncommons.reportng.velocity-log</code></dt>
+        <dd>
+          Since version 1.1.3, ReportNG will no longer generate a Velocity log file
+          by default.  If you want a log file you should set this property to "true".
         </dd>
       </dl>
       <?php readfile('footer.html'); ?>
