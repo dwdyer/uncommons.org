@@ -106,6 +106,7 @@
         If you are using the command line, an IDE plug-in or some other build system,
         please refer to the <a href="http://testng.org/doc/documentation-main.html#running-testng">TestNG documentation</a>
         to find out how to register custom listeners/reporters.
+      </p>
       <h3>Supported System Properties</h3>
       <p>
         The following optional system properties can be set (via nested <code>&lt;sysproperty&gt;</code> elements

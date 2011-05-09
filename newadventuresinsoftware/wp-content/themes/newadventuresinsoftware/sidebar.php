@@ -8,7 +8,7 @@
     </h3>
     <p>
       <a href="http://dandyer.co.uk" rel="me">dandyer.co.uk</a> / <a href="http://uncommons.org">uncommons.org</a><br/>
-      <small>Hosted by <a href="http://rectangularsoftware.com">Rectangular Software</a></small>
+      <small>Twitter: <a href="http://twitter.com/dwdyer">@dwdyer</a></small>
     </p>      
   </div>
 
