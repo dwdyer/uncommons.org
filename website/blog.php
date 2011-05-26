@@ -10,7 +10,7 @@
     </script>
     <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
   </div>
-  <img src="http://www.dandyer.co.uk/blogdan.png" width="70" height="70" alt="Dan" id="mugshot"/>
+  <img src="/dan.png" width="70" height="70" alt="Dan" id="mugshot"/>
   <h2>New Adventures<br/>in Software</h2>
   <?php
   if (file_exists('../newadventuresinsoftware/wp-load.php'))

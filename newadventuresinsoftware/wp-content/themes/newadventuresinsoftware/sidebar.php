@@ -2,7 +2,7 @@
 
 <div id="right">
   <div id="author">    
-    <a href="http://www.dandyer.co.uk" rel="me"><img src="http://www.dandyer.co.uk/blogdan.png" style="float: right;" alt="Dan Dyer"/></a>
+    <a href="http://www.dandyer.co.uk" rel="me"><img src="http://uncommons.org/dan.png" style="float: right;" alt="Dan Dyer"/></a>
     <h3>
       by Dan Dyer
     </h3>
