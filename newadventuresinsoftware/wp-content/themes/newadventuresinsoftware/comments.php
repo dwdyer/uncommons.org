@@ -18,18 +18,29 @@
 
 <!-- You can start editing here. -->
 
-<div style="text-align: center; margin: 2em;">
-<script type="text/javascript"><!--
-google_ad_client = "pub-9021348951632792";
-/* NAIS Blog Comments 468x60 */
-google_ad_slot = "3479334793";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
+<div style="text-align: center; margin: 1em 0 2em 0;">
+  <div style="float: left; margin-right: 1em;">
+      <g:plusone size="tall" href="<?php the_permalink(); ?>"></g:plusone>
+      <script type="text/javascript">
+        window.___gcfg = {lang: 'en-GB'};
+      
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      </script>
+      <iframe src="http://www.facebook.com/plugins/like.php?app_id=236144349759379&amp;href=<?php urlencode(the_permalink()); ?>&amp;send=false&amp;layout=box_count&amp;width=50&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=lucida+grande&amp;height=60" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:60px;" allowTransparency="true"></iframe>
+  </div>
+  <script type="text/javascript"><!--
+  google_ad_client = "pub-9021348951632792";
+  /* NAIS Blog Comments 468x60 */
+  google_ad_slot = "3479334793";
+  google_ad_width = 468;
+  google_ad_height = 60;
+  //-->
+  </script>
+  <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
 </div>
 
 <?php if ($comments) : ?>

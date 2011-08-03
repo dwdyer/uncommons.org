@@ -10,19 +10,10 @@ get_header();
 	<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h2>	
 	<div class="meta"><?php _e("Posted in"); ?> <?php the_category(',') ?> by <?php the_author() ?> on <?php the_time('F jS, Y') ?> <?php edit_post_link(__('Edit This')); ?></div>
 	<div class="main">
-          <div style="float: right; margin-left: 1em; margin-bottom: .5em;">
-            <script type="text/javascript">
-              var dzone_url = '<?php the_permalink() ?>';
-              var dzone_title = '<?php the_title() ?>';
-              var dzone_style = '1';
-            </script>          
-            <script type="text/javascript" src="http://widgets.dzone.com/widgets/zoneit.js"></script>
-          </div>
-          <?php the_content(__('(more...)')); ?>
+        <?php the_content(__('(more...)')); ?>
 	</div>
 
 	<div class="comments">
-		<?php wp_link_pages(); ?>
 		<?php comments_popup_link(__('<strong>0</strong> Comments'), __('<strong>1</strong> Comment'), __('<strong>%</strong> Comments')); ?>
 	</div>
 	
