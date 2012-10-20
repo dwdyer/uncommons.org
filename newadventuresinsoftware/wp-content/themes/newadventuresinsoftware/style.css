@@ -340,3 +340,5 @@ hr { /* Simple style when CSS not in use */
 /* Hides from IE-mac \*/
 * html .clearfix {height: 1%;}
 /* End hide from IE-mac */	
+
+#twitter-widget-0, #twitter-widget-1, #twitter-widget-2, #twitter-widget-3 {clear: none !important; margin: 0 auto !important;}
