@@ -7,6 +7,7 @@
     <meta name="description" content="Watchmaker is an extensible, high-performance, multi-threaded, object-oriented framework for implementing platform-independent evolutionary computation (evolutionary/genetic algorithms/programming) in Java." />
     <meta name="keywords" content="evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, dan, daniel, dyer, swing, sudoku, mona, lisa, biomorphs, travelling, traveling, salesman" />
     <meta name="author" content="Daniel Dyer" />
+    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
     <!-- YUI Carousel -->
@@ -25,7 +26,7 @@
         <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.
       </p>
       <div id="sidebar">
-        <div style="text-align: center; margin-bottom: 1.8em;">
+        <div style="text-align: center; margin-bottom: 3.2em;">
           <script type="text/javascript"><!--
           google_ad_client = "pub-9021348951632792";
           /* Watchmaker Sidebar */

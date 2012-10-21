@@ -6,12 +6,13 @@
     <meta name="description" content="Download the Watchmaker Framework for Evolutionary Computation.  Source and binaries for the latest version and archived releases." />
     <meta name="keywords" content="download, binary, binaries, source, latest, current, version, archive, archived, evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, changelog" />
     <meta name="author" content="Daniel Dyer" />
+    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
     <?php readfile('analytics.html'); ?>
   </head>
   <body class="yui-skin-sam">
     <div id="container">
-      <?php readfile('compactheader.html'); ?>
+      <?php readfile('header.html'); ?>
         <h2>Current Release</h2>
         <p>
           The latest stable release of the Watchmaker Framework is available from the

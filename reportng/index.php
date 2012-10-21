@@ -7,14 +7,14 @@
     <meta name="description" content="ReportNG is a simple HTML/XML reporting plug-in for the TestNG framework." />
     <meta name="keywords" content="reportng, testng, reporting, unit, test, java, html, xml, css, open, source, free, dan, daniel, dyer, uncommons" />
     <meta name="author" content="Daniel Dyer" />
-    <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
     <?php readfile('analytics.html'); ?>
   </head>
   <body>
     <div id="container">
       <?php readfile('header.html'); ?>
-      <img src="detail.gif" alt="Report detail page." width="483" height="356" style="float: right; margin-left: 1em; margin-bottom: 1em;"/>
+      <img src="detail.gif" alt="Report detail page." width="483" height="356" class="screenshot-right"/>
       <p>
         <em>ReportNG is Open Source software, free to download and use subject to the terms of the
         <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.</em>
@@ -47,8 +47,8 @@
         which has been tested with TestNG 5.12 and 5.13.1 (it should work with any version of TestNG after 5.0,
         but this has not been tested).
       </p>
+      <img src="overview.png" alt="Report overview page." width="511" height="172" class="screenshot-right" />
       <h3>Sample Reports</h3>
-      <img src="overview.png" alt="Report overview page." width="511" height="172" style="float: left; clear: right; margin-right: 2em; margin-bottom: 2em;"/>
       <ul>
         <li>
           <a href="sample/index.html">A very basic sample report</a> with some test failures.  This report demonstrates
@@ -58,7 +58,7 @@
           The <a href="sample/custom/index.html">same report with a custom stylesheet</a>.
         </li>
       </ul>
-      <h2>How to use ReportNG</h2>
+      <h2 style="clear: both;">How to use ReportNG</h2>
       <h3>Apache Ant</h3>
       <p>
         To use the reporting plug-in, set the <code>listeners</code> attribute of the <code>testng</code> element in
@@ -66,9 +66,8 @@
         reporter class names.  The class names for the ReportNG reporters are:
       </p>
       <pre>
-        org.uncommons.reportng.HTMLReporter
-        org.uncommons.reportng.JUnitXMLReporter
-      </pre>
+    org.uncommons.reportng.HTMLReporter
+    org.uncommons.reportng.JUnitXMLReporter</pre>
       <p>
         You may also want to disable the default TestNG reporters by setting the <code>useDefaultListeners</code>
         attribute to "false".
@@ -77,15 +76,14 @@
         Your Ant task will probably look something like this:
       </p>
       <pre>
-        &lt;testng classpathref="test-path"
-                outputdir="${test-results.dir}"
-                haltonfailure="true"
-                useDefaultListeners="false"
-                listeners="org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter"&gt;
-          &lt;xmlfileset dir="." includes="testng.xml"/&gt;
-          &lt;sysproperty key="org.uncommons.reportng.title" value="My Test Report"/&gt;
-        &lt;/testng&gt;
-      </pre>
+    &lt;testng classpathref="test-path"
+            outputdir="${test-results.dir}"
+            haltonfailure="true"
+            useDefaultListeners="false"
+            listeners="org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter"&gt;
+      &lt;xmlfileset dir="." includes="testng.xml"/&gt;
+      &lt;sysproperty key="org.uncommons.reportng.title" value="My Test Report"/&gt;
+    &lt;/testng&gt;</pre>
       <p>
         The <code>reportng-1.1.3.jar</code> and <code>velocity-dep-1.4.jar</code> files must be
         included in the classpath used to run the tests.

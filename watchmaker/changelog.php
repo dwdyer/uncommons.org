@@ -7,12 +7,13 @@
     <meta name="description" content="Changelog and roadmap for the Watchmaker Framework for Evolutionary Computation." />
     <meta name="keywords" content="changelog, roadmap, evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework" />
     <meta name="author" content="Daniel Dyer" />
+    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
     <?php readfile('analytics.html'); ?>
   </head>
   <body class="yui-skin-sam">
     <div id="container">
-      <?php readfile('compactheader.html'); ?>
+      <?php readfile('header.html'); ?>
 
       <div id="sidebar">
         <h2>API Changes</h2>

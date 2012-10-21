@@ -4,8 +4,8 @@
   <head>
     <title>Uncommons.org</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta name="description" content="ReportNG is a simple HTML/XML reporting plug-in for the TestNG framework." />
-    <meta name="keywords" content="reportng, testng, reporting, unit, test, java, html, xml, css, open, source, free, dan, daniel, dyer, uncommons" />
+    <meta name="description" content="Open source Java projects." />
+    <meta name="keywords" content="java, open, source, free, dan, daniel, dyer, uncommons" />
     <meta name="author" content="Daniel Dyer" />
     <link href="uncommons.css" rel="stylesheet" type="text/css" />
     <link href="http://blog.uncommons.org/feed/" rel="alternate" type="application/rss+xml" title="New Adventures in Software Feed" />
@@ -19,7 +19,7 @@
     <div id="container">
       <?php readfile('header.html'); ?>
       
-      <p>
+      <p style="text-align: center;">
         All of the software projects on this page are Open Source software, licensed under the terms of 
         the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, version 2.0</a>.
       </p>
@@ -29,7 +29,7 @@
       </div>
 
       <div id="main">
-       <h2><a href="http://watchmaker.uncommons.org">The Watchmaker Framework for Evolutionary Computation</a></h2>
+       <h2>The Watchmaker Framework for Evolutionary Computation</h2>
        <div id="examples">
          <ol>
            <li>
@@ -77,7 +77,8 @@
          })();
        </script>
        <p>
-         The Watchmaker Framework is an extensible, high-performance, multi-threaded, object-oriented framework for implementing platform-independent
+         The <a href="http://watchmaker.uncommons.org">Watchmaker Framework</a> is an extensible, high-performance, multi-threaded, object-oriented
+         framework for implementing platform-independent
          <a href="http://en.wikipedia.org/wiki/Evolutionary_algorithm">evolutionary/genetic algorithms</a> in Java.  The framework includes several
          example applications, some of which you can try out by clicking on the images to the right of this text.
        </p>
@@ -86,15 +87,17 @@
          <li><a href="http://watchmaker.uncommons.org/api/">API Documentation</a></li>
          <li><a href="http://watchmaker.uncommons.org/manual/">User Manual</a></li>
        </ul>
-       <h2><a href="http://zeitgeist.uncommons.org">Zeitgeist</a></h2>
+       <h2>Zeitgeist</h2>
        <p>
-         Zeitgeist is an intelligent RSS news aggregator.  It collates articles from several sources and identifies common themes.
+         <a href="http://zeitgeist.uncommons.org">Zeitgeist</a> is an intelligent RSS news aggregator.  It collates
+         articles from several sources and identifies common themes.
          It can be used to publish web pages of current topical news stories with related links and relevant photos.
        </p>
-       <h2><a href="http://maths.uncommons.org">Uncommons Maths</a></h2>
+       <h2>Uncommons Maths</h2>
        <img src="demo.png" width="326" height="189" alt="Uncommons Maths random number demo." class="screenshot-right" />
        <p>
-         High-performance random number generators and other mathematical utilities.  Includes support for generating random numbers from
+         <a href="http://maths.uncommons.org">Uncommons Maths</a> is a Java library that provides high-performance random number generators
+         and other mathematical utilities.  Includes support for generating random numbers from
          several probability distributions (Uniform, Gaussian, Binomial, Poisson and Exponential).  Also includes classes for working with
          combinatorics and statistics.
        </p>
@@ -106,22 +109,25 @@
          <a href="http://blog.uncommons.org/2008/04/06/a-java-programmers-guide-to-random-numbers-part-2-not-just-coins-and-dice/">Part 2</a>,
          <a href="http://blog.uncommons.org/2008/04/10/a-java-programmers-guide-to-random-numbers-part-3-seeding/">Part 3</a>
        </p>
-       <h2><a href="http://reportng.uncommons.org">ReportNG</a></h2>
+       <h2>ReportNG</h2>
        <img src="overview.png" width="511" height="172" alt="ReportNG HTML output" class="screenshot-right" />
        <p>
-         ReportNG is a simple HTML reporting plug-in for the <a href="http://www.testng.org">TestNG</a> unit-testing framework. It is
+         <a href="http://reportng.uncommons.org">ReportNG</a> is a simple HTML reporting plug-in for the
+         <a href="http://www.testng.org">TestNG</a> unit-testing framework. It is
          intended as a replacement for the default TestNG HTML report.  ReportNG provides a simple, colour-coded view of the test results.
          ReportNG also includes a second reporter that produces JUnit format XML output.
        </p>
-       <h2><a href="http://antlib.uncommons.org">Uncommons Antlib</a></h2>
+       <h2></h2>
        <p>
-         Experimental tools for building modular software with <a href="http://ant.apache.org">Apache Ant</a>.
+         The <a href="http://antlib.uncommons.org">Uncommons Antlib</a> is a collection of experimental tools for building modular
+         software with <a href="http://ant.apache.org">Apache Ant</a>.
          See also <a href="http://blog.uncommons.org/2007/10/25/15-tips-for-better-ant-builds/">15 Tips for Better Ant Builds</a>.
          Includes a pure Java toolchain for rendering DocBook documentation and experimental macros for building Android projects.
        </p>
-       <h2><a href="http://dwdyer.github.com/ansiconsolelogger">ANSI Console Logger</a></h2>
+       <h2>ANSI Console Logger</h2>
        <p>
-         A simple colour-coded console appender for <a href="http://logging.apache.org/log4j/">Log4J</a> that displays messages of different severities in different colours.
+         A <a href="http://dwdyer.github.com/ansiconsolelogger">simple colour-coded console appender</a> for
+         <a href="http://logging.apache.org/log4j/">Log4J</a> that displays messages of different severities in different colours.
        </p>
      </div>
 

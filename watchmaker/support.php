@@ -7,12 +7,13 @@
     <meta name="description" content="Support and documentation for the Watchmaker Framework for Evolutionary Computation." />
     <meta name="keywords" content="support, documentation, discussion, forum, questions, bugs, issues, enhancements, evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework" />
     <meta name="author" content="Daniel Dyer" />
+    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
     <?php readfile('analytics.html'); ?>
   </head>
   <body class="yui-skin-sam">
     <div id="container">
-      <?php readfile('compactheader.html'); ?>
+      <?php readfile('header.html'); ?>
         <h2>Documentation</h2>
         <p>
           In an ideal world, all your Watchmaker Framework questions would be answered by the documentation.  The world

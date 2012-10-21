@@ -7,14 +7,14 @@
     <meta name="description" content="Random number generators, probability distributions, combinatorics and statistics for Java." />
     <meta name="keywords" content="maths, math, mathematics, random, number, generator, rng, combinatorics, permutations, combinations, probability, distributions, statistions, gaussian, binomial, exponential, posisson, java, open, source, free, dan, daniel, dyer, uncommons" />
     <meta name="author" content="Daniel Dyer" />
-    <link href="maths.css" rel="stylesheet" type="text/css" />
+    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
     <?php readfile('analytics.html'); ?>
   </head>
   <body>
     <div id="container">
       <?php readfile('header.html'); ?>
-      <p>
+      <p style="text-align: center;">
         <em>Uncommons Maths is Open Source software, free to download and use subject to the terms of the
         <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.</em>
       </p>
@@ -36,7 +36,7 @@
           <a href="http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html">Mersenne Twister RNG</a> originally
           developed by Makoto Matsumoto and Takuji Nishimura.  It is faster than <code>java.util.Random</code>,
           does not have the same statistical flaws as that RNG and also has a long period (2<sup>19937</sup>).
-          <i>The Mersenne Twister is an excellent general purpose RNG.</i>
+          <br/><em>The Mersenne Twister is an excellent general purpose RNG.</em>
         </dd>
         <dt><strong>XORShiftRNG</strong></dt>
         <dd>
@@ -44,8 +44,8 @@
           <a href="http://www.jstatsoft.org/v08/i14/paper">described by George Marsaglia</a>.  It has a period of
           about 2<sup>160</sup>, which although much shorter than the Mersenne Twister's, is still significantly
           longer than that of <code>java.util.Random</code>.
-          <i>This is the RNG to use when performance is the primary concern.  It can be up to twice as
-          fast as the Mersenne Twister.</i>
+          <br/><em>This is the RNG to use when performance is the primary concern.  It can be up to twice as
+          fast as the Mersenne Twister.</em>
         </dd>
         <dt><strong>CMWC4096RNG</strong></dt>
         <dd>

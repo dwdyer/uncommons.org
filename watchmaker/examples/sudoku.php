@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="container">
-      <?php readfile('../compactheader.html'); ?>
+      <?php readfile('../header.html'); ?>
 
       <div id="sidebar">
         <p>

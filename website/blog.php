@@ -1,5 +1,5 @@
 <div id="blog">
-  <div style="text-align: center; margin-bottom: 1.8em;">
+  <div style="text-align: center; margin-bottom: 3.2em;">
     <script type="text/javascript"><!--
     google_ad_client = "pub-9021348951632792";
     /* Uncommons.org Sidebar */

@@ -5,7 +5,7 @@
     <title>Uncommons Maths - Changelog</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="author" content="Daniel Dyer" />
-    <link href="maths.css" rel="stylesheet" type="text/css" />
+    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
     <?php readfile('analytics.html'); ?>
   </head>
