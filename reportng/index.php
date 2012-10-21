@@ -14,11 +14,11 @@
   <body>
     <div id="container">
       <?php readfile('header.html'); ?>
-      <img src="detail.gif" alt="Report detail page." width="483" height="356" class="screenshot-right"/>
-      <p>
+      <p style="text-align: center;">
         <em>ReportNG is Open Source software, free to download and use subject to the terms of the
         <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.</em>
       </p>
+      <img src="detail.gif" alt="Report detail page." width="483" height="356" class="screenshot-right"/>
       <p>
         ReportNG is a simple HTML reporting plug-in for the <a href="http://www.testng.org">TestNG</a> unit-testing
         framework.  It is intended as a replacement for the default TestNG HTML report.  The default report is
@@ -37,10 +37,6 @@
         XML file per test class.  This is different from the approach taken by the core TestNG implementation.
         The ReportNG version of the JUnit reporter ignores TestNG's notion of suites to produce output that is closer
         to what you would get if you were using JUnit.
-      </p>
-      <p>
-        Suggestions for improvements to ReportNG are encouraged.  Please use the
-        <a href="http://github.com/dwdyer/reportng/issues">issue tracker</a>.
       </p>
       <p>
         The current version is <a href="http://github.com/dwdyer/reportng/downloads">1.1.3</a>,
