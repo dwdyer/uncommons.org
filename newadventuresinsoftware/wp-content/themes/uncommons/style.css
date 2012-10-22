@@ -7,20 +7,17 @@ Author URI:     http://dandyer.co.uk
 Version:        1.0
 */
 
-h1, h2, h3 {font-variant: normal;}
-#title h1, #title h2 {font-variant: small-caps;}
-h2 a {font-family: Palatino Linotype, Palatino, serif; color: #333}
-h2 a:visited {color: #333;}
-h2 a:hover {color: #006699; text-decoration: none;}
-h2.posttitle {margin-bottom: 0;}
-h3 {margin: 1em 0 0 0;}
+h1 a, h2 a, h3 a {font-family: Palatino Linotype, Palatino, serif; color: #333}
+h1 a:visited, h2 a:visited, h3 a:visited {color: #333;}
+h1 a:hover, h2 a:hover, h3 a:hover {color: #006699; text-decoration: none;}
+h2.posttitle {font-variant: normal; margin-bottom: 0;}
 #main {width: 654px; padding-right: 3.6em; float: left;}
 #right {width: 270px; float: right;}
-#right h2 {margin-top: 0;}
 #sidebar {width: inherit; float: none;}
 #sidebar {list-style-type: none; margin: 0; width: inherit; float: none;}
 #sidebar ul {font-size: 1em; margin-left: 1.5em; list-style-type: disc;}
-li h2 {font-size: 1.286em;}
+li h3 {font-size: 1.286em; margin-top: 1em;}
+#author {border-bottom: 1px solid #ccc; margin-bottom: 1.1em;}
 
 .post {margin-bottom: 3.6em;}
 .byline {font-family: Helvetica, Arial, sans-serif; clear: both; font-size: 1.2em; margin: 0 0 1.5em 0; border-bottom: 1px solid #cccccc;}
@@ -34,6 +31,9 @@ li h2 {font-size: 1.286em;}
 ul.children {font-size: inherit; list-style-type: none;}
 ol {font-size: 1.4em; margin: 1.286em 0 1.286em 2em;}
 ol li div p {font-size: inherit;}
+ol li ul {font-size: inherit;}
+
+.tagcloud {font-family: Helvetica, Arial, sans-serif;}
 
 .twtr-widget {margin: 0 .5em;}
 .twtr-widget h3 {font-family: inherit;}

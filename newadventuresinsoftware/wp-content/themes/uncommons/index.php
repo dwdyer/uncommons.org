@@ -25,6 +25,19 @@
   </div>
 
   <!-- <?php trackback_rdf(); ?> -->
+  <?php if (is_single()) { ?>
+  <div style="text-align: center; margin: 1.8em 0;">
+    <script type="text/javascript"><!--
+    google_ad_client = "pub-9021348951632792";
+    /* NAIS Blog Comments 468x60 */
+    google_ad_slot = "3479334793";
+    google_ad_width = 468;
+    google_ad_height = 60;
+    //-->
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+  </div>
+  <?php } ?>
   <?php comments_template(); ?> 
 
   <?php endwhile; else: ?>

@@ -8,6 +8,7 @@ h1, h2, h3 {font-weight: bold; font-variant: small-caps;}
 h1 {font-size: 3.6em; line-height: 1em; margin-bottom: .5em;}
 h2 {font-size: 2.7em; line-height: 1.333em; margin-top: 0; margin-bottom: 0.6667em;}
 h3 {font-size: 1.8em; margin-bottom: 1em;}
+h4 {font-size: 1.5em; margin-bottom: 1.2em; font-weight: bold;}
 fieldset, p, ul, ol, dl {font-size: 1.4em; margin: 1.286em 0;}
 pre {font-family: Monaco, Courier New, monospace; font-size: 1.2em; margin-bottom: 1.5em;}
 strong {color: #000000;}

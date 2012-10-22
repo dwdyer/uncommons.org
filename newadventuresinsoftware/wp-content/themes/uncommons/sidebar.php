@@ -1,15 +1,10 @@
 <div id="right">
   <div id="author">    
-    <a href="http://dandyer.co.uk" rel="me"><img src="http://uncommons.org/dan.png" id="mugshot" alt="Dan Dyer"/></a>
-    <h3>
-      <span style="font-weight: normal;">by</span> Dan Dyer
+    <a href="http://dandyer.co.uk" rel="me"><img src="http://uncommons.org/dan.png" id="mugshot" alt="Dan Dyer" style="margin-top: -.9em;"/></a>
+    <h3 style="margin: .5em 0 .5em 0;">
+      <span style="font-weight: normal;">by</span> <a href="http://dandyer.co.uk" rel="me">Dan Dyer</a>
     </h3>
-    <div style="height: 1.6em; padding: .1emi 0; margin: .9em 0;">
-      <a href="http://linkedin.com/in/dwdyer"><img src="http://uncommons.org/linkedin.png" width="16" height="16" alt="LinkedIn icon" title="LinkedIn Profile"/></a>
-      <a href="http://stackoverflow.com/users/5171"><img src="http://uncommons.org/stackoverflow.png" width="16" height="16" alt="Stack Overflow icon" title="Stack Overflow Profile"/></a>
-      <a href="https://github.com/dwdyer"><img src="http://uncommons.org/github.png" width="16" height="16" alt="Github icon" title="Github Profile"/></a>
-    </div>
-    <p style="margin-top: 0;"><a href="http://dandyer.co.uk" rel="me">http://dandyer.co.uk</a></p>
+    <a href="http://feeds.feedburner.com/NewAdventuresInSoftware"><img src="http://feeds.feedburner.com/~fc/NewAdventuresInSoftware?bg=cccccc&amp;fg=333333&amp;anim=0" height="26" width="88" alt="Feedburner subscriber count" style="padding: .5em 0;"/></a>
   </div>
 
   <ul id="sidebar">
