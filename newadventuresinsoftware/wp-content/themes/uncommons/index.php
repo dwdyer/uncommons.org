@@ -26,7 +26,7 @@
 
   <!-- <?php trackback_rdf(); ?> -->
   <?php if (is_single()) { ?>
-  <div style="text-align: center; margin: 1.8em 0;">
+  <div style="text-align: center; margin: 0 0 1.8em 0;">
     <script type="text/javascript"><!--
     google_ad_client = "pub-9021348951632792";
     /* NAIS Blog Comments 468x60 */
