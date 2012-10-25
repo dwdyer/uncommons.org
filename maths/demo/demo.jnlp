@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jnlp spec="1.0+" codebase="https://uncommons-maths.dev.java.net/demo">
+<jnlp spec="1.0+" codebase="http://maths.uncommons.org/demo">
   <information>
     <title>Uncommons Maths - Random Numbers Demo</title>
     <vendor>uncommons.org</vendor>
