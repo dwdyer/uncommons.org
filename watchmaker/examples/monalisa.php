@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="keywords" content="evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, dan, daniel, dyer, swing, mona, lisa" />
     <meta name="author" content="Daniel Dyer" />
+    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="../watchmaker.css" rel="stylesheet" type="text/css" />
     <?php readfile('../analytics.html'); ?>
   </head>
