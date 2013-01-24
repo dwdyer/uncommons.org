@@ -10,7 +10,8 @@ Version:        1.0
 h1 a, h2 a, h3 a {font-family: Palatino Linotype, Palatino, serif; color: #333}
 h1 a:visited, h2 a:visited, h3 a:visited {color: #333;}
 h1 a:hover, h2 a:hover, h3 a:hover {color: #006699; text-decoration: none;}
-h2.posttitle, h3 {font-variant: normal; margin-bottom: 0;}
+h2.posttitle {font-variant: normal; margin-bottom: 0;}
+h3 {font-variant: normal;}
 #main {width: 654px; padding-right: 3.6em; float: left;}
 #right {width: 270px; float: right; margin-bottom: 3.6em;}
 #sidebar {width: inherit; float: none;}
