@@ -2,7 +2,7 @@
         <div id="credit">
             Hosted by <a href="http://rectangularsoftware.com/">Rectangular Software</a>
         </div>
-        &copy; 2006-2012 <a href="http://www.dandyer.co.uk">Daniel W. Dyer</a>
+        &copy; 2006-2013 <a href="http://www.dandyer.co.uk">Daniel W. Dyer</a>
       </div>
     </div>
     <?php wp_footer();?>

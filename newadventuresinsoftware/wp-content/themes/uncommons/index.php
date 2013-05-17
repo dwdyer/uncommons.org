@@ -12,10 +12,6 @@
       <?php the_content(); ?>
     </div>
     <div class="postfooter">
-      <div class="likebuttons">
-        <script type="IN/Share" data-url="<?php the_permalink(); ?>"></script>
-        <div class="g-plusone" data-size="medium" data-href="<?php the_permalink(); ?>" data-annotation="none"></div>
-      </div>
       <p>
         <?php comments_popup_link(__('<strong>0</strong> Comments'), __('<strong>1</strong> Comment'), __('<strong>%</strong> Comments')); ?>
         &nbsp;&middot;&nbsp;

@@ -14,8 +14,6 @@
     </style>
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php wp_head(); ?>
-    <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-3303586-1'],
