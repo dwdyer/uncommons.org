@@ -3,7 +3,7 @@
 
 a {text-decoration: none; color: #006699;}
 a:visited {color: #003366;}
-body {line-height: 1.8em; font-size: 62.5%; font-family: Palatino Linotype, Palatino, serif; padding: 0 2em; background-color: #ffffff;}
+body {line-height: 1.8em; font-size: 62.5%; font-family: Palatino Linotype, Palatino, serif; padding: 0 2em; background-color: #fff;}
 h1, h2, h3 {font-weight: bold; font-variant: small-caps;}
 h1 {font-size: 3.6em; line-height: 1em; margin-bottom: .5em;}
 h2 {font-size: 2.7em; line-height: 1.333em; margin-top: 0; margin-bottom: 0.6667em;}
@@ -11,7 +11,7 @@ h3 {font-size: 1.8em; margin-bottom: 1em;}
 h4 {font-size: 1.5em; margin-bottom: 1.2em; font-weight: bold;}
 fieldset, p, ul, ol, dl {font-size: 1.4em; margin: 1.286em 0;}
 pre {font-family: Monaco, Courier New, monospace; font-size: 1.2em; margin-bottom: 1.5em;}
-strong {color: #000000;}
+strong {color: #000;}
 ul, ol {margin-left: 1.8em;}
 dd {margin-left: 2.5714em;}
 sup, sub {font-size: .5em; line-height: 0;}
@@ -19,7 +19,7 @@ blockquote {font-family: Helvetica, Arial, sans-serif; font-style: italic; color
 input, textarea {border: 1px solid #ccc; font-family: Monaco, monospace; font-size: 1em; padding: .1em;}
 select {font-family: Helvetica, Arial, sans-serif; color: #333; border: 1px solid #ccc; font-size: 1em; padding: .1em; width: 100%;}
 .formlabel {padding-right: 1em; white-space: nowrap; text-align: right;}
-input[type='submit'] {padding: .5em; font-family: Helvetica, Arial, sans-serif; float: right; background: #cccccc; width: inherit; box-shadow: 1px 1px 2px #666666; -webkit-box-shadow: 1px 1px 2px #666666; -moz-box-shadow: 1px 1px 2px #666666;  color: #333; font-weight: bold;}
+input[type='submit'] {padding: .5em; font-family: Helvetica, Arial, sans-serif; background: #ccc; width: inherit; box-shadow: 1px 1px 2px #666; -webkit-box-shadow: 1px 1px 2px #666; -moz-box-shadow: 1px 1px 2px #666;  color: #333; font-weight: bold;}
 
 /* Structural styles */
 #container {width: 960px; margin-left: auto; margin-right: auto; color: #333;}

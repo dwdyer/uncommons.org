@@ -14,16 +14,16 @@ h2.posttitle {font-variant: normal; margin-bottom: 0;}
 h3 {font-variant: normal;}
 #main {width: 654px; padding-right: 3.6em; float: left;}
 #right {width: 270px; float: right; margin-bottom: 3.6em;}
+#footer {border-top: 1px solid #ccc;}
 #sidebar {width: inherit; float: none;}
 #sidebar {list-style-type: none; margin: 0; width: inherit; float: none;}
 #sidebar ul {font-size: 1em; margin-left: 1.5em; list-style-type: disc;}
 li h3 {font-size: 1.286em; margin-top: 1em;}
-#author {border-bottom: 1px solid #ccc; margin-bottom: 1.1em;}
-#footer {clear: both; font-size: 1.2em; font-family: Helvetica, Arial, sans-serif; margin: 3em 0; border-top: 1px solid #ccc;}
+#dan {border-bottom: 1px solid #ccc; margin-bottom: 1.1em; height: 70px;}
 
 .post {margin-bottom: 3.6em;}
-.byline {font-family: Helvetica, Arial, sans-serif; clear: both; font-size: 1.2em; margin: 0 0 1.5em 0; border-bottom: 1px solid #cccccc;}
-.postfooter {font-family: Helvetica, Arial, sans-serif; clear: both; margin-bottom: 1.5em; border-top: 1px solid #cccccc; border-bottom: 1px solid #cccccc;}
+.byline {font-family: Helvetica, Arial, sans-serif; clear: both; font-size: 1.2em; margin: 0 0 1.5em 0; border-bottom: 1px solid #ccc;}
+.postfooter {font-family: Helvetica, Arial, sans-serif; clear: both; margin-bottom: 1.5em; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
 .postfooter p {font-size: 1.2em; margin: 0;}
 #commentform input, #commentform textarea {width: 100%;}
 #commentform input[type='submit'] {width: inherit;}

@@ -1,5 +1,5 @@
 <div id="right">
-  <div id="author">    
+  <div id="dan">    
     <a href="http://dandyer.co.uk" rel="me"><img src="http://uncommons.org/dan.png" id="mugshot" alt="Dan Dyer" style="margin-top: -.9em;"/></a>
     <h3 style="margin: .5em 0 .5em 0;">
       <span style="font-weight: normal;">by</span> <a href="http://dandyer.co.uk" rel="me">Dan Dyer</a>
