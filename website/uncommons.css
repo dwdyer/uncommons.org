@@ -3,17 +3,17 @@
 
 a {text-decoration: none; color: #006699;}
 a:visited {color: #003366;}
-body {line-height: 1.8em; font-size: 62.5%; font-family: Palatino Linotype, Palatino, serif; padding: 0 2em; background-color: #fff;}
-h1, h2, h3 {font-weight: bold; font-variant: small-caps;}
-h1 {font-size: 3.6em; line-height: 1em; margin-bottom: .5em;}
-h2 {font-size: 2.7em; line-height: 1.333em; margin-top: 0; margin-bottom: 0.6667em;}
-h3 {font-size: 1.8em; margin-bottom: 1em;}
-h4 {font-size: 1.5em; margin-bottom: 1.2em; font-weight: bold;}
-fieldset, p, ul, ol, dl {font-size: 1.4em; margin: 1.286em 0;}
-pre {font-family: Monaco, Courier New, monospace; font-size: 1.2em; margin-bottom: 1.5em;}
+body {line-height: 2.4em; font-size: 62.5%; font-family: Georgia, serif; padding: 0 2em; background-color: #fff;}
+h1, h2, h3 {font-family: Palatino Linotype, Palatino, serif; font-weight: bold; font-variant: small-caps;}
+h1 {font-size: 4em; line-height: 1.2em; margin-bottom: .6em;}
+h2 {font-size: 3em; line-height: 1.6em; margin-top: 0; margin-bottom: 0.8em;}
+h3 {font-size: 2em; margin-bottom: 1.2em;}
+h4 {font-size: 1.6em; margin-bottom: 1.5em; font-weight: bold;}
+fieldset, p, ul, ol, dl {font-size: 1.6em; margin: 1.5em 0;}
+pre {font-family: Monaco, Courier New, monospace; font-size: 1.5em; margin-bottom: 1.6em;}
 strong {color: #000;}
-ul, ol {margin-left: 1.8em;}
-dd {margin-left: 2.5714em;}
+ul, ol {margin-left: 2em;}
+dd {margin-left: 2.6667em;}
 sup, sub {font-size: .5em; line-height: 0;}
 blockquote {font-family: Helvetica, Arial, sans-serif; font-style: italic; color: #777; margin: 0 2em;}
 input, textarea {border: 1px solid #ccc; font-family: Monaco, monospace; font-size: 1em; padding: .1em;}
@@ -27,17 +27,17 @@ input[type='submit'] {padding: .5em; font-family: Helvetica, Arial, sans-serif; 
 #sidebar {width: 320px; float: right;}
 
 /* Header styles */
-#title {margin: 3.6em 0 1.8em 0; text-align: center;}
+#title {margin: 4em 0 2em 0; text-align: center;}
 #title h1 {margin-bottom: .1em;}
-#title h2 {font-size: 1.8em; margin-bottom: 1em;}
+#title h2 {font-size: 2em; margin-bottom: 1em;}
 #adsense {float: right;}
-#ribbon {clear: both; text-align: center; font-size: 1.5em; font-family: Helvetica, Arial, sans-serif; margin-bottom: 1.2em;}
+#ribbon {clear: both; text-align: center; font-size: 1.5em; font-family: Helvetica, Arial, sans-serif; margin-bottom: 1.3333em;}
 #ribbon a {display: inline-block; font-weight: bold; padding-left: .75em;}
 .version {font-weight: bold;}
 
 /* Content styles */
 .newfeature {color: #cc0000;}
-.screenshot-right {float: right; margin: 0 0 1.8em 1.8em;}
+.screenshot-right {float: right; margin: 0 0 2em 1.8em;}
 #headlines dd p {font-size: inherit; margin-top: 0;}
 #blog dt a {font-weight: bold;}
 #blog dd {margin-left: 0;}
@@ -45,21 +45,21 @@ input[type='submit'] {padding: .5em; font-family: Helvetica, Arial, sans-serif; 
 #mugshot {float: right;}
 
 /* Footer styles */
-#footer {clear: both; font-size: 1.2em; font-family: Helvetica, Arial, sans-serif; margin: 3em 0; border-top: 1px solid #666666;}
+#footer {clear: both; font-size: 1.2em; font-family: Helvetica, Arial, sans-serif; margin: 3.3333em 0; border-top: 1px solid #666666;}
 #credit {float: right;}
 
 /* Carousel styles */
 ol.yui-carousel-element {font-size: inherit;}
-.yui-carousel-element li {height: 177px;}
+.yui-carousel-element li {height: 183px;}
 #examples .yui-carousel-element li {width: 317px; border: 0;}
 #examples ol li img {float: left; margin: .5em 1em .5em .5em;}
 #examples p {text-align: left; margin-top: 1em; margin-right: .5em;}
-#examples {float: right; margin-bottom: 1.8em; margin-left: 1em;}
+#examples {float: right; margin-bottom: 2em; margin-left: 1em;}
 
 #books .yui-carousel-element li {width: 317px; border: 0;}
 #books ol li img {float: right; margin: .5em .5em .5em 1em;}
 #books p {text-align: left; margin-top: 1em; margin-left: .5em;}
-#books {margin-bottom: 1.8em;}
+#books {margin-bottom: 2em;}
 
 /* Demo styles */
 #applet {text-align: center;}
@@ -67,8 +67,8 @@ ol.yui-carousel-element {font-size: inherit;}
 /* Blog feed styles */
 .rssfeedicon {float: right; margin-right: 0;}
 .feedburnerFeedBlock {width: 320px;}
-.feedburnerFeedBlock ul {padding-left: 0; margin-left: 0; font-size: 1.4em; list-style-type: none;}
-.feedburnerFeedBlock li {margin-bottom: 1.286em;}
+.feedburnerFeedBlock ul {padding-left: 0; margin-left: 0; font-size: 1.5em; list-style-type: none;}
+.feedburnerFeedBlock li {margin-bottom: 1.3333em;}
 .feedburnerFeedBlock .date {font-size: 1em; font-style: italic; margin: 0 0 0 0;}
 #creditfooter {display: none;}
 
