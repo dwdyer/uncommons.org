@@ -1,6 +1,5 @@
-<?php echo '<?xml version="1.0" encoding="utf-8" ?>'."\n" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
     <meta name="keywords" content="software, engineering, development, programming, java, haskell, python, php, objective-c, android, ios, open, source, mobile, evoultionary, computation, genetic, algorithms, artificial, intelligence"/>
@@ -14,6 +13,7 @@
     </style>
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php wp_head(); ?>
+    <script type="text/javascript" src="http://uncommons.org/amazon.js"></script>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-3303586-1'],
@@ -33,5 +33,4 @@
     <div id="container">
       <div id="title">
         <h1><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-        <h2><a href="<?php bloginfo('url'); ?>"><?php bloginfo('description'); ?></a></h2>
       </div>

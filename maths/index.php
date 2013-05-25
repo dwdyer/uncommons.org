@@ -68,7 +68,7 @@
           a 256-cell automaton to generate random values.
         </dd>
       </dl>
-      <ol style="font-size: 1em;">
+      <ol style="font-size: 1.3em; margin: 1.846em 0 1.846em 2.7692em;">
         <li>
           The algorithm is not the only security consideration for RNGs.  The source, secrecy and integrity of
           the seed data is also vital.  For highly sensitive applications, consider using something like

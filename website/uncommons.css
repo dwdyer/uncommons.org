@@ -12,8 +12,8 @@ h4 {font-size: 1.6em; margin-bottom: 1.5em; font-weight: bold;}
 fieldset, p, ul, ol, dl {font-size: 1.6em; margin: 1.5em 0;}
 pre {font-family: Monaco, Courier New, monospace; font-size: 1.5em; margin-bottom: 1.6em;}
 strong {color: #000;}
-ul, ol {margin-left: 2em;}
-dd {margin-left: 2.6667em;}
+ul, ol {margin-left: 2.25em;}
+dd {margin-left: 2.25em;}
 sup, sub {font-size: .5em; line-height: 0;}
 blockquote {font-family: Helvetica, Arial, sans-serif; font-style: italic; color: #777; margin: 0 2em;}
 input, textarea {border: 1px solid #ccc; font-family: Monaco, monospace; font-size: 1em; padding: .1em;}
@@ -27,8 +27,8 @@ input[type='submit'] {padding: .5em; font-family: Helvetica, Arial, sans-serif; 
 #sidebar {width: 320px; float: right;}
 
 /* Header styles */
-#title {margin: 4em 0 2em 0; text-align: center;}
-#title h1 {margin-bottom: .1em;}
+#title {margin: 4.8em 0 2.4em 0; text-align: center;}
+#title h1 {margin-bottom: 0;}
 #title h2 {font-size: 2em; margin-bottom: 1em;}
 #adsense {float: right;}
 #ribbon {clear: both; text-align: center; font-size: 1.5em; font-family: Helvetica, Arial, sans-serif; margin-bottom: 1.3333em;}
@@ -41,11 +41,11 @@ input[type='submit'] {padding: .5em; font-family: Helvetica, Arial, sans-serif; 
 #headlines dd p {font-size: inherit; margin-top: 0;}
 #blog dt a {font-weight: bold;}
 #blog dd {margin-left: 0;}
-#blog .date {color: #888888; font-style: italic;}
+#blog .date {color: #888; font-style: italic;}
 #mugshot {float: right;}
 
 /* Footer styles */
-#footer {clear: both; font-size: 1.2em; font-family: Helvetica, Arial, sans-serif; margin: 3.3333em 0; border-top: 1px solid #666666;}
+#footer {clear: both; font-size: 1.3em; font-family: Helvetica, Arial, sans-serif; margin: 3.692em 0; border-top: 1px solid #666;}
 #credit {float: right;}
 
 /* Carousel styles */

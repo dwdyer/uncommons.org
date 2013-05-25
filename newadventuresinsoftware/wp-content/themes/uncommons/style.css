@@ -21,9 +21,9 @@ li h3 {font-size: 1.25em; margin-top: 1.2em;}
 #dan {border-bottom: 1px solid #ccc; margin-bottom: 2.4em; height: 72px;}
 
 .post {margin-bottom: 3.6em;}
-.byline {font-family: Helvetica, Arial, sans-serif; clear: both; font-size: 1.2em; margin: 0 0 2em 0; border-bottom: 1px solid #ccc;}
+.byline {font-family: Helvetica, Arial, sans-serif; clear: both; font-size: 1.3em; margin: 0 0 1.846em 0; border-bottom: 1px solid #ccc;}
 .postfooter {font-family: Helvetica, Arial, sans-serif; clear: both; margin-bottom: 2.4em; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
-.postfooter p {font-size: 1.2em; margin: 0;}
+.postfooter p {font-size: 1.3em; margin: 0;}
 #commentform input, #commentform textarea {width: 100%;}
 #commentform input[type='submit'] {width: inherit;}
 .commentlist {margin-left: 0; list-style-type: none;}
@@ -35,10 +35,4 @@ ol {font-size: 1.6em; margin: 1.5 0 1.5 2em;}
 ol li div p {font-size: inherit;}
 ol li ul {font-size: inherit;}
 
-.tagcloud {font-family: Helvetica, Arial, sans-serif;}
-
-.twtr-widget {margin: 0 .5em;}
-.twtr-widget h3 {font-family: inherit;}
-.twtr-bd p {font-size: inherit;}
-
-#twitter-widget-0, #twitter-widget-1, #twitter-widget-2, #twitter-widget-3 {clear: none !important; margin: 0 auto !important;}
+.twitter-follow-button {margin: 6px 0 0 0;}
