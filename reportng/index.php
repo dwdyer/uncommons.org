@@ -117,6 +117,11 @@
           text is included as raw HTML/XML, which allows for the insertion of hyperlinks and
           other nasty hacks.
         </dd>
+        <dt><code>org.uncommons.reportng.failures-only</code></dt>
+        <dd>
+          Defaults to <code>"false"</code>.  If set to <code>"true"</code>, the generated report will
+          not list successful tests.
+        </dd>
         <dt><code>org.uncommons.reportng.frames</code></dt>
         <dd>
           Defaults to <code>"true"</code>.  If set to <code>"false"</code>, generates the HTML report
