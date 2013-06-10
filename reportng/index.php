@@ -39,8 +39,8 @@
         to what you would get if you were using JUnit.
       </p>
       <p>
-        The current version is <a href="http://github.com/dwdyer/reportng/downloads">1.1.3</a>,
-        which has been tested with TestNG 5.12 and 5.13.1 (it should work with any version of TestNG after 5.0,
+        The current version is <a href="http://github.com/dwdyer/reportng/downloads">1.1.4</a>,
+        which has been tested with TestNG 6.2 (it should work with any version of TestNG after 5.0,
         but this has not been tested).
       </p>
       <img src="overview.png" alt="Report overview page." width="511" height="172" class="screenshot-right" />
@@ -81,7 +81,7 @@
       &lt;sysproperty key="org.uncommons.reportng.title" value="My Test Report"/&gt;
     &lt;/testng&gt;</pre>
       <p>
-        The <code>reportng-1.1.3.jar</code> and <code>velocity-dep-1.4.jar</code> files must be
+        The <code>reportng-1.1.4.jar</code> and <code>velocity-dep-1.4.jar</code> files must be
         included in the classpath used to run the tests.
       </p>
       <h3>Other Build Systems</h3>
