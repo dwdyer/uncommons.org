@@ -89,7 +89,6 @@
         If you use <a href="http://maven.apache.org">Maven</a>, you may find 
         <a href="http://solidsoft.wordpress.com/2011/01/23/better-looking-html-test-reports-for-testng-with-reportng-maven-guide/">Marcin Zajączkowski's instructions</a>
         helpful.
-        Maven users can find the latest version of ReportNG in the <a href="https://maven2-repository.dev.java.net/">Java.net Maven 2 repository</a>.
       </p>
       <p>
         If you are using <a href="http://www.gradle.org/">Gradle</a>, Tomek Kaczanowski has written
