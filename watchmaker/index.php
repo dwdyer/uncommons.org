@@ -22,7 +22,7 @@
         The Watchmaker Framework is an extensible, high-performance, object-oriented framework for implementing platform-independent
         <a href="http://en.wikipedia.org/wiki/Evolutionary_algorithm">evolutionary/genetic algorithms</a> in Java. The framework
         provides type-safe evolution for arbitrary types via a non-invasive API.  The Watchmaker Framework is Open Source software,
-        free to <a href="https://watchmaker.dev.java.net/servlets/ProjectDocumentList?folderID=6343">download</a> and use subject to the terms of the
+        free to <a href="http://watchmaker.uncommons.org/download.php">download</a> and use subject to the terms of the
         <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.
       </p>
       <div id="sidebar">
