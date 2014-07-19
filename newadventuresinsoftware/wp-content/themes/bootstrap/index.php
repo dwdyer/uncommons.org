@@ -15,12 +15,6 @@
     </div>
   
     <!-- <?php trackback_rdf(); ?> -->
-    <?php if (is_single()) { ?>
-    <div style="text-align: center; margin: 0 0 1.8em 0;" class="hidden-xs hidden-sm">
-      <a href="https://www.digitalocean.com/?refcode=a1e64d7dc147"><img src="http://uncommons.org/digitalocean728x90.jpg" width="728" height="90" alt="Digital Ocean VPS Hosting" /></a>
-    </div>
-    <?php } ?>
-  
     <?php endwhile; else: ?>
     <p>Sorry, no posts matched your criteria.</p>
     <?php endif; ?>
