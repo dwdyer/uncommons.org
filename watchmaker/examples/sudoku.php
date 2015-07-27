@@ -7,7 +7,6 @@
     <meta name="author" content="Daniel Dyer" />
     <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="../watchmaker.css" rel="stylesheet" type="text/css" />
-    <?php readfile('../analytics.html'); ?>
   </head>
   <body>
     <div id="container">
@@ -49,7 +48,7 @@
           <li><a href="monalisa.php">Mona Lisa</a></li>
         </ul>
       </div>
-      
+
       <div id="main">
         <h2>An Evolutionary Sudoku Solver</h2>
         <div id="applet">

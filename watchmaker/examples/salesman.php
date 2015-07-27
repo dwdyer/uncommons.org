@@ -7,7 +7,6 @@
     <meta name="author" content="Daniel Dyer" />
     <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="../watchmaker.css" rel="stylesheet" type="text/css" />
-    <?php readfile('../analytics.html'); ?>
   </head>
   <body>
     <div id="container">
@@ -30,7 +29,7 @@
         </p>
         <p>
           Evolutionary algorithms provide a way to perform a non-exhaustive search of this huge search
-          space and to still find a good (though not necessarily optimal) solution.  The applet on this page 
+          space and to still find a good (though not necessarily optimal) solution.  The applet on this page
           uses the <a href="http://watchmaker.uncommons.org">Watchmaker Framework</a> to find routes
           using a simple evolutionary algorithm.  The evolutionary operators are a mutation operator
           that changes the order of cities in a route, and an ordered cross-over operator that splices different
@@ -44,7 +43,7 @@
           <li><a href="monalisa.php">Mona Lisa</a></li>
         </ul>
       </div>
-      
+
       <div id="main">
         <h2>The Travelling Salesman</h2>
         <div id="applet">

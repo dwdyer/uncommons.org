@@ -10,17 +10,16 @@
     <link href="uncommons.css" rel="stylesheet" type="text/css" />
     <link href="http://blog.uncommons.org/feed/" rel="alternate" type="application/rss+xml" title="New Adventures in Software Feed" />
     <script type="text/javascript" src="amazon.js"></script>
-    <?php readfile('analytics.html'); ?>
     <!-- YUI Carousel -->
-    <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />  
+    <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />
     <script type="text/javascript" src="http://yui.yahooapis.com/combo?2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js&amp;2.8.0r4/build/element/element-min.js&amp;2.8.0r4/build/carousel/carousel-min.js"></script>
   </head>
   <body class="yui-skin-sam">
     <div id="container">
       <?php readfile('header.html'); ?>
-      
+
       <p style="text-align: center;">
-        All of the software projects on this page are Open Source software, licensed under the terms of 
+        All of the software projects on this page are Open Source software, licensed under the terms of
         the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, version 2.0</a>.
       </p>
 
@@ -43,7 +42,7 @@
              <a href="http://watchmaker.uncommons.org/examples/biomorphs.php"><img src="http://watchmaker.uncommons.org/biomorphs.png" width="180" height="163" alt="Biomorphs"/></a>
              <p>
                <strong>Biomorphs</strong><br/>
-               A program that evolves insect-like creatures via user-guided selection. 
+               A program that evolves insect-like creatures via user-guided selection.
              </p>
            </li>
            <li>
@@ -104,7 +103,7 @@
        <p>
          <b>WebStart Demo:</b> <a href="http://maths.uncommons.org/demo/demo.jnlp">Probability Distributions</a>
        </p>
-       <p>A Java Programer's Guide to Random Numbers: 
+       <p>A Java Programer's Guide to Random Numbers:
          <a href="http://blog.uncommons.org/2008/04/03/a-java-programmers-guide-to-random-numbers-part-1-beyond-javautilrandom/">Part 1</a>,
          <a href="http://blog.uncommons.org/2008/04/06/a-java-programmers-guide-to-random-numbers-part-2-not-just-coins-and-dice/">Part 2</a>,
          <a href="http://blog.uncommons.org/2008/04/10/a-java-programmers-guide-to-random-numbers-part-3-seeding/">Part 3</a>

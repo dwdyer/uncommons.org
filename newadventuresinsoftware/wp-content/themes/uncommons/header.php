@@ -14,20 +14,6 @@
     <?php wp_get_archives('type=monthly&format=link'); ?>
     <?php wp_head(); ?>
     <script type="text/javascript" src="http://uncommons.org/amazon.js"></script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-3303586-1'],
-                ['_trackPageview'],
-                ['_setDomainName', '.uncommons.org'],
-                ['_setAllowHash', 'false']);
-      (function() {
-        var ga = document.createElement('script');
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 
-                  'http://www') + '.google-analytics.com/ga.js';
-        ga.setAttribute('async', 'true');
-        document.documentElement.firstChild.appendChild(ga);
-      })();
-    </script>
   </head>
   <body>
     <div id="container">

@@ -6,8 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta name="author" content="Daniel Dyer" />
     <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
-    <?php readfile('analytics.html'); ?>
+    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script>
   </head>
   <body class="yui-skin-sam">
     <div id="container">

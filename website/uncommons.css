@@ -30,7 +30,6 @@ input[type='submit'] {padding: .5em; font-family: Helvetica, Arial, sans-serif; 
 #title {margin: 4.8em 0 2.4em 0; text-align: center;}
 #title h1 {margin-bottom: 0;}
 #title h2 {font-size: 2em; margin-bottom: 1em;}
-#adsense {float: right;}
 #ribbon {clear: both; text-align: center; font-size: 1.5em; font-family: Helvetica, Arial, sans-serif; margin-bottom: 1.3333em;}
 #ribbon a {display: inline-block; font-weight: bold; padding-left: .75em;}
 .version {font-weight: bold;}

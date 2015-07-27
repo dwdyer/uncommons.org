@@ -9,11 +9,10 @@
     <meta name="author" content="Daniel Dyer" />
     <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
+    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script>
     <!-- YUI Carousel -->
-    <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />  
+    <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />
     <script type="text/javascript" src="http://yui.yahooapis.com/combo?2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js&amp;2.8.0r4/build/element/element-min.js&amp;2.8.0r4/build/carousel/carousel-min.js"></script>
-    <?php readfile('analytics.html'); ?>
   </head>
   <body class="yui-skin-sam">
     <div id="container">
@@ -26,21 +25,10 @@
         <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.
       </p>
       <div id="sidebar">
-        <div style="text-align: center; max-height: 250px; margin-bottom: 3.8em;">
-          <script type="text/javascript"><!--
-          google_ad_client = "pub-9021348951632792";
-          /* Watchmaker Sidebar */
-          google_ad_slot = "7684970738";
-          google_ad_width = 300;
-          google_ad_height = 250;
-          //-->
-          </script>
-          <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
-        </div>
         <?php readfile('examples.html'); ?>
         <?php readfile('reading.html'); ?>
       </div>
-      
+
       <div id="main">
         <h2>Features</h2>
         <ul id="features">
@@ -80,7 +68,7 @@
           <li>
             <strong>Evolution Strategies</strong> <span class="newfeature">(new in version 0.7.1)</span>
             - Support for both (&#x03bc;+&#x03bb;) and (&#x03bc;,&#x03bb;)
-            <a href="http://en.wikipedia.org/wiki/Evolution_strategy">evolution strategies</a>.  
+            <a href="http://en.wikipedia.org/wiki/Evolution_strategy">evolution strategies</a>.
           </li>
           <li>
             <strong>Interactive Evolutionary Algorithms</strong> - Support for user-guided selection makes the

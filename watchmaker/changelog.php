@@ -9,7 +9,6 @@
     <meta name="author" content="Daniel Dyer" />
     <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
-    <?php readfile('analytics.html'); ?>
   </head>
   <body class="yui-skin-sam">
     <div id="container">
@@ -46,7 +45,7 @@
           using the <a href="http://github.com/dwdyer/watchmaker/issues">issue tracker</a>.
         </p>
       </div>
-      
+
       <div id="main">
         <h2>Changelog</h2>
         <pre><?php readfile('CHANGELOG.txt'); ?></pre>

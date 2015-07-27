@@ -7,7 +7,6 @@
     <meta name="author" content="Daniel Dyer" />
     <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="../watchmaker.css" rel="stylesheet" type="text/css" />
-    <?php readfile('../analytics.html'); ?>
   </head>
   <body>
     <div id="container">
@@ -61,7 +60,7 @@
         <a href="/api/org/uncommons/watchmaker/framework/termination/Stagnation.html">Stagnation</a>
         termination condition in action).  It could run for hours.
       </p>
- 
+
       <h3>Other Examples</h3>
       <ul>
         <li><a href="salesman.php">The Travelling Salesman</a></li>

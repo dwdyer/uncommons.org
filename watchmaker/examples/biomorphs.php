@@ -7,8 +7,7 @@
     <meta name="author" content="Daniel Dyer" />
     <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="../watchmaker.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
-    <?php readfile('../analytics.html'); ?>
+    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script>
   </head>
   <body>
     <div id="container">
@@ -34,7 +33,7 @@
           <li><a href="monalisa.php">Mona Lisa</a></li>
         </ul>
       </div>
-      
+ 
       <div id="main">
         <h2>Biomorphs</h2>
         <div id="applet">

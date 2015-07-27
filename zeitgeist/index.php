@@ -8,7 +8,6 @@
     <meta name="keywords" content="zeitgeist, rss, news, aggregator, feed, java, html, open, source, free, dan, daniel, dyer, uncommons" />
     <meta name="author" content="Daniel Dyer" />
     <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
-    <?php readfile('analytics.html'); ?>
   </head>
   <body>
     <div id="container">

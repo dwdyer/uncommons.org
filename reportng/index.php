@@ -8,8 +8,7 @@
     <meta name="keywords" content="reportng, testng, reporting, unit, test, java, html, xml, css, open, source, free, dan, daniel, dyer, uncommons" />
     <meta name="author" content="Daniel Dyer" />
     <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script> 
-    <?php readfile('analytics.html'); ?>
+    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script>
   </head>
   <body>
     <div id="container">
