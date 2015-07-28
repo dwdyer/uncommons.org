@@ -79,7 +79,7 @@
             <strong>Distributed Processing</strong> - Support for distributed fitness evaluations using either
             <a href="http://hadoop.apache.org/">Hadoop</a> (via the <a href="http://lucene.apache.org/mahout/">Apache
             Mahout</a> project) or
-            <a href="http://blog.uncommons.org/2009/08/03/watchmaker-framework-for-evolutionary-computation-version-0-6-1-terracotta-clustering-and-more/">Terracotta</a>.
+            <a href="http://blog.dandyer.co.uk/2009/08/03/watchmaker-framework-for-evolutionary-computation-version-0-6-1-terracotta-clustering-and-more/">Terracotta</a>.
           </li>
           <li>
             <strong>Swing Component Library</strong> - Re-usable components to simplify the building of graphical user
