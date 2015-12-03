@@ -14,8 +14,10 @@
     <div id="container">
       <?php readfile('header.html'); ?>
       <p style="text-align: center;">
-        <em>ReportNG is Open Source software, free to download and use subject to the terms of the
-        <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.</em>
+        <em style="color: #c00;">
+          THIS SOFTWARE IS NO LONGER BEING MAINTAINED. VERSION 1.1.4 IS THE FINAL RELEASE.<br/>
+          IF YOU WOULD LIKE TO MAKE YOUR OWN UPDATES, YOU CAN
+          <a href="https://github.com/dwdyer/reportng">FORK IT ON GITHUB</a>.</em>
       </p>
       <img src="detail.gif" alt="Report detail page." width="483" height="356" class="screenshot-right"/>
       <p>
