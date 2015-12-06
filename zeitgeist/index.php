@@ -30,10 +30,6 @@
         how to use Zeitgeist to generate a web page of news topics.  The default output looks something like the image on the right
         (it can be customised with CSS).
       </p>
-      <h3>Zeitgeist in Action</h3>
-      <p>
-        Zeitgeist is used to generate the football news headlines at <a href="http://news.footballpredictions.net">news.footballpredictions.net</a>.
-      </p>
       <?php readfile('footer.html'); ?>
     </div>
   </body>
