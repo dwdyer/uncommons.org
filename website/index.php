@@ -11,8 +11,8 @@
     <link href="http://blog.uncommons.org/feed/" rel="alternate" type="application/rss+xml" title="New Adventures in Software Feed" />
     <script type="text/javascript" src="amazon.js"></script>
     <!-- YUI Carousel -->
-    <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />
-    <script type="text/javascript" src="http://yui.yahooapis.com/combo?2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js&amp;2.8.0r4/build/element/element-min.js&amp;2.8.0r4/build/carousel/carousel-min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://yui-s.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />
+    <script type="text/javascript" src="https://yui-s.yahooapis.com/combo?2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js&amp;2.8.0r4/build/element/element-min.js&amp;2.8.0r4/build/carousel/carousel-min.js"></script>
   </head>
   <body class="yui-skin-sam">
     <div id="container">
@@ -32,28 +32,28 @@
        <div id="examples">
          <ol>
            <li>
-             <a href="http://watchmaker.uncommons.org/examples/salesman.php"><img src="http://watchmaker.uncommons.org/tsp.png" width="180" height="163" alt="Travelling Salesman"/></a>
+             <a href="//watchmaker.uncommons.org/examples/salesman.php"><img src="//watchmaker.uncommons.org/tsp.png" width="180" height="163" alt="Travelling Salesman"/></a>
              <p>
                <strong>The Travelling Salesman</strong><br/>
                An evolutionary program that finds quick solutions to a difficult routing problem.
              </p>
            </li>
            <li>
-             <a href="http://watchmaker.uncommons.org/examples/biomorphs.php"><img src="http://watchmaker.uncommons.org/biomorphs.png" width="180" height="163" alt="Biomorphs"/></a>
+             <a href="//watchmaker.uncommons.org/examples/biomorphs.php"><img src="//watchmaker.uncommons.org/biomorphs.png" width="180" height="163" alt="Biomorphs"/></a>
              <p>
                <strong>Biomorphs</strong><br/>
                A program that evolves insect-like creatures via user-guided selection.
              </p>
            </li>
            <li>
-             <a href="http://watchmaker.uncommons.org/examples/sudoku.php"><img src="http://watchmaker.uncommons.org/sudoku.png" width="180" height="163" alt="Sudoku"/></a>
+             <a href="//watchmaker.uncommons.org/examples/sudoku.php"><img src="//watchmaker.uncommons.org/sudoku.png" width="180" height="163" alt="Sudoku"/></a>
              <p>
                <strong>Sudoku</strong><br/>
                A program that visualises the progress of an evolutionary algorithm that solves Sudoku puzzles.
              </p>
            </li>
            <li>
-             <a href="http://watchmaker.uncommons.org/examples/monalisa.php"><img src="http://watchmaker.uncommons.org/monalisa.png" width="180" height="163" alt="Mona Lisa"/></a>
+             <a href="//watchmaker.uncommons.org/examples/monalisa.php"><img src="//watchmaker.uncommons.org/monalisa.png" width="180" height="163" alt="Mona Lisa"/></a>
              <p>
                <strong>Mona Lisa</strong><br/>
                Evolution vs. the Mona Lisa.  Reducing a work of art to 50 translucent polygons.
@@ -76,7 +76,7 @@
          })();
        </script>
        <p>
-         The <a href="http://watchmaker.uncommons.org">Watchmaker Framework</a> is an extensible, high-performance, multi-threaded, object-oriented
+         The <a href="//watchmaker.uncommons.org">Watchmaker Framework</a> is an extensible, high-performance, multi-threaded, object-oriented
          framework for implementing platform-independent
          <a href="http://en.wikipedia.org/wiki/Evolutionary_algorithm">evolutionary/genetic algorithms</a> in Java.  The framework includes several
          example applications, some of which you can try out by clicking on the images to the right of this text.

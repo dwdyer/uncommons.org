@@ -7,8 +7,8 @@
     <meta name="description" content="ReportNG is a simple HTML/XML reporting plug-in for the TestNG framework." />
     <meta name="keywords" content="reportng, testng, reporting, unit, test, java, html, xml, css, open, source, free, dan, daniel, dyer, uncommons" />
     <meta name="author" content="Daniel Dyer" />
-    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script>
+    <link href="//uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="//uncommons.org/amazon.js"></script>
   </head>
   <body>
     <div id="container">
@@ -40,7 +40,7 @@
         to what you would get if you were using JUnit.
       </p>
       <p>
-        The current version is <a href="http://github.com/dwdyer/reportng/downloads">1.1.4</a>,
+        The current version is <a href="https://github.com/dwdyer/reportng/downloads">1.1.4</a>,
         which has been tested with TestNG 6.2 (it should work with any version of TestNG after 5.0,
         but this has not been tested).
       </p>
@@ -139,9 +139,9 @@
             ReportNG 1.1 includes translations for the following languages: English, French and
             Portuguese.  If you would like to contribute translations for other languages, please
             open an issue in the
-            <a href="http://github.com/dwdyer/reportng/issues">issue tracker</a> and attach
+            <a href="https://github.com/dwdyer/reportng/issues">issue tracker</a> and attach
             a translated version of
-            <a href="http://github.com/dwdyer/reportng/blob/master/reportng/src/java/resources/org/uncommons/reportng/messages/reportng.properties">the properties file</a>.
+            <a href="https://github.com/dwdyer/reportng/blob/master/reportng/src/java/resources/org/uncommons/reportng/messages/reportng.properties">the properties file</a>.
           </em>
         </dd>
         <dt><code>org.uncommons.reportng.show-expected-exceptions</code></dt>
@@ -154,7 +154,7 @@
         <dd>
           The path to a custom CSS file that over-rides some or all of the default styles used by
           the <code>HTMLReporter</code>.  This allows the appearance of reports to be customised.
-          See the <a href="http://github.com/dwdyer/reportng/blob/master/reportng/src/java/resources/org/uncommons/reportng/templates/html/reportng.css">default
+          See the <a href="https://github.com/dwdyer/reportng/blob/master/reportng/src/java/resources/org/uncommons/reportng/templates/html/reportng.css">default
           stylesheet</a> for the classes and selectors that can be styled.
           For an example, see <a href="sample/custom/index.html">this version</a> of the
           <a href="sample/index.html">sample report</a>, which uses the bundled hudsonesque.css file

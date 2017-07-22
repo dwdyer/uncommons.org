@@ -7,12 +7,12 @@
     <meta name="description" content="Watchmaker is an extensible, high-performance, multi-threaded, object-oriented framework for implementing platform-independent evolutionary computation (evolutionary/genetic algorithms/programming) in Java." />
     <meta name="keywords" content="evolution, evolutionary, genetic, computation, algorithms, programming, java, open, source, free, watchmaker, framework, dan, daniel, dyer, swing, sudoku, mona, lisa, biomorphs, travelling, traveling, salesman" />
     <meta name="author" content="Daniel Dyer" />
-    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
+    <link href="//uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
     <link href="watchmaker.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script>
+    <script type="text/javascript" src="//uncommons.org/amazon.js"></script>
     <!-- YUI Carousel -->
-    <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />
-    <script type="text/javascript" src="http://yui.yahooapis.com/combo?2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js&amp;2.8.0r4/build/element/element-min.js&amp;2.8.0r4/build/carousel/carousel-min.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://yui-s.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />
+    <script type="text/javascript" src="https://yui-s.yahooapis.com/combo?2.8.0r4/build/yahoo-dom-event/yahoo-dom-event.js&amp;2.8.0r4/build/element/element-min.js&amp;2.8.0r4/build/carousel/carousel-min.js"></script>
   </head>
   <body class="yui-skin-sam">
     <div id="container">
@@ -21,7 +21,7 @@
         The Watchmaker Framework is an extensible, high-performance, object-oriented framework for implementing platform-independent
         <a href="http://en.wikipedia.org/wiki/Evolutionary_algorithm">evolutionary/genetic algorithms</a> in Java. The framework
         provides type-safe evolution for arbitrary types via a non-invasive API.  The Watchmaker Framework is Open Source software,
-        free to <a href="http://watchmaker.uncommons.org/download.php">download</a> and use subject to the terms of the
+        free to <a href="//watchmaker.uncommons.org/download.php">download</a> and use subject to the terms of the
         <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.
       </p>
       <div id="sidebar">
@@ -111,8 +111,8 @@
           Depending on the type of object that you are evolving, you might find the classes you need are already included in the framework.  If not, it's straightforward
           to write the required implementations for any type that you choose to evolve.  Finally, you need to pick one of the included selection strategies and a random
           number generator (RNG).  You could use the standard <code>java.util.Random</code> RNG but there are faster and more random alternatives.  The Watchmaker Framework
-          bundles the <a href="http://maths.uncommons.org">Uncommons Maths</a> library, which includes several RNGs.
-          The <a href="https://uncommons-maths.dev.java.net/nonav/api/org/uncommons/maths/random/MersenneTwisterRNG.html"><code>MersenneTwisterRNG</code></a> is a good
+          bundles the <a href="https://maths.uncommons.org">Uncommons Maths</a> library, which includes several RNGs.
+          The <a href="https://maths.uncommons.org/api/org/uncommons/maths/random/MersenneTwisterRNG.html"><code>MersenneTwisterRNG</code></a> is a good
           choice in most cases.
         </p>
         <p>

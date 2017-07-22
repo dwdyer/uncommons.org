@@ -7,7 +7,7 @@
     <meta name="description" content="Zeitgeist is an intelligent RSS news aggregator." />
     <meta name="keywords" content="zeitgeist, rss, news, aggregator, feed, java, html, open, source, free, dan, daniel, dyer, uncommons" />
     <meta name="author" content="Daniel Dyer" />
-    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
+    <link href="//uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div id="container">
@@ -26,7 +26,7 @@
       <p>
         Zeitgeist includes a basic HTML publisher for generating a page of news
         headlines, complete with relevant images extracted from the feed articles.
-        Refer to the <a href="http://github.com/dwdyer/zeitgeist/blob/master/README.txt">README file</a> for instructions on
+        Refer to the <a href="https://github.com/dwdyer/zeitgeist/blob/master/README.txt">README file</a> for instructions on
         how to use Zeitgeist to generate a web page of news topics.  The default output looks something like the image on the right
         (it can be customised with CSS).
       </p>

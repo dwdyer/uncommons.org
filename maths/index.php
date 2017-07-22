@@ -7,8 +7,8 @@
     <meta name="description" content="Random number generators, probability distributions, combinatorics and statistics for Java." />
     <meta name="keywords" content="maths, math, mathematics, random, number, generator, rng, combinatorics, permutations, combinations, probability, distributions, statistions, gaussian, binomial, exponential, posisson, java, open, source, free, dan, daniel, dyer, uncommons" />
     <meta name="author" content="Daniel Dyer" />
-    <link href="http://uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="http://www.uncommons.org/amazon.js"></script>
+    <link href="//uncommons.org/uncommons.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="//uncommons.org/amazon.js"></script>
   </head>
   <body>
     <div id="container">
