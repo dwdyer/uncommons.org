@@ -8,7 +8,7 @@
     <meta name="keywords" content="java, open, source, free, dan, daniel, dyer, uncommons" />
     <meta name="author" content="Daniel Dyer" />
     <link href="uncommons.css" rel="stylesheet" type="text/css" />
-    <link href="http://blog.uncommons.org/feed/" rel="alternate" type="application/rss+xml" title="New Adventures in Software Feed" />
+    <link href="https://blog.dandyer.co.uk/feed/" rel="alternate" type="application/rss+xml" title="New Adventures in Software Feed" />
     <script type="text/javascript" src="amazon.js"></script>
     <!-- YUI Carousel -->
     <link type="text/css" rel="stylesheet" href="https://yui-s.yahooapis.com/2.8.0r4/build/carousel/assets/skins/sam/carousel.css" />
@@ -82,20 +82,20 @@
          example applications, some of which you can try out by clicking on the images to the right of this text.
        </p>
        <ul>
-         <li><a href="http://github.com/dwdyer/watchmaker/downloads">Download</a></li>
-         <li><a href="http://watchmaker.uncommons.org/api/">API Documentation</a></li>
-         <li><a href="http://watchmaker.uncommons.org/manual/">User Manual</a></li>
+         <li><a href="https://github.com/dwdyer/watchmaker/downloads">Download</a></li>
+         <li><a href="//watchmaker.uncommons.org/api/">API Documentation</a></li>
+         <li><a href="//watchmaker.uncommons.org/manual/">User Manual</a></li>
        </ul>
        <h2>Zeitgeist</h2>
        <p>
-         <a href="http://zeitgeist.uncommons.org">Zeitgeist</a> is an intelligent RSS news aggregator.  It collates
+         <a href="//zeitgeist.uncommons.org">Zeitgeist</a> is an intelligent RSS news aggregator.  It collates
          articles from several sources and identifies common themes.
          It can be used to publish web pages of current topical news stories with related links and relevant photos.
        </p>
        <h2>Uncommons Maths</h2>
        <img src="demo.png" width="326" height="189" alt="Uncommons Maths random number demo." class="screenshot-right" />
        <p>
-         <a href="http://maths.uncommons.org">Uncommons Maths</a> is a Java library that provides high-performance random number generators
+         <a href="//maths.uncommons.org">Uncommons Maths</a> is a Java library that provides high-performance random number generators
          and other mathematical utilities.  Includes support for generating random numbers from
          several probability distributions (Uniform, Gaussian, Binomial, Poisson and Exponential).  Also includes classes for working with
          combinatorics and statistics.
@@ -104,28 +104,28 @@
          <b>WebStart Demo:</b> <a href="http://maths.uncommons.org/demo/demo.jnlp">Probability Distributions</a>
        </p>
        <p>A Java Programer's Guide to Random Numbers:
-         <a href="http://blog.uncommons.org/2008/04/03/a-java-programmers-guide-to-random-numbers-part-1-beyond-javautilrandom/">Part 1</a>,
-         <a href="http://blog.uncommons.org/2008/04/06/a-java-programmers-guide-to-random-numbers-part-2-not-just-coins-and-dice/">Part 2</a>,
-         <a href="http://blog.uncommons.org/2008/04/10/a-java-programmers-guide-to-random-numbers-part-3-seeding/">Part 3</a>
+         <a href="https://blog.dandyer.co.uk/2008/04/03/a-java-programmers-guide-to-random-numbers-part-1-beyond-javautilrandom/">Part 1</a>,
+         <a href="https://blog.dandyer.co.uk/2008/04/06/a-java-programmers-guide-to-random-numbers-part-2-not-just-coins-and-dice/">Part 2</a>,
+         <a href="https://blog.dandyer.co.uk/2008/04/10/a-java-programmers-guide-to-random-numbers-part-3-seeding/">Part 3</a>
        </p>
        <h2>ReportNG</h2>
        <img src="overview.png" width="511" height="172" alt="ReportNG HTML output" class="screenshot-right" />
        <p>
-         <a href="http://reportng.uncommons.org">ReportNG</a> is a simple HTML reporting plug-in for the
+         <a href="//reportng.uncommons.org">ReportNG</a> is a simple HTML reporting plug-in for the
          <a href="http://www.testng.org">TestNG</a> unit-testing framework. It is
          intended as a replacement for the default TestNG HTML report.  ReportNG provides a simple, colour-coded view of the test results.
          ReportNG also includes a second reporter that produces JUnit format XML output.
        </p>
        <h2></h2>
        <p>
-         The <a href="http://antlib.uncommons.org">Uncommons Antlib</a> is a collection of experimental tools for building modular
+         The <a href="//antlib.uncommons.org">Uncommons Antlib</a> is a collection of experimental tools for building modular
          software with <a href="http://ant.apache.org">Apache Ant</a>.
-         See also <a href="http://blog.uncommons.org/2007/10/25/15-tips-for-better-ant-builds/">15 Tips for Better Ant Builds</a>.
+         See also <a href="https://blog.dandyer.co.uk/2007/10/25/15-tips-for-better-ant-builds/">15 Tips for Better Ant Builds</a>.
          Includes a pure Java toolchain for rendering DocBook documentation and experimental macros for building Android projects.
        </p>
        <h2>ANSI Console Logger</h2>
        <p>
-         A <a href="http://dwdyer.github.com/ansiconsolelogger">simple colour-coded console appender</a> for
+         A <a href="https://dwdyer.github.com/ansiconsolelogger">simple colour-coded console appender</a> for
          <a href="http://logging.apache.org/log4j/">Log4J</a> that displays messages of different severities in different colours.
        </p>
      </div>
