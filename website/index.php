@@ -23,11 +23,7 @@
         the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, version 2.0</a>.
       </p>
 
-      <div id="sidebar">
-        <?php include('blog.php'); ?>
-      </div>
-
-      <div id="main">
+      <div>
        <h2>The Watchmaker Framework for Evolutionary Computation</h2>
        <div id="examples">
          <ol>
