@@ -1,4 +1,4 @@
-<?php echo '<?xml version="1.0" encoding="utf-8" ?>'."\n" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
@@ -11,7 +11,17 @@
   </head>
   <body>
     <div id="container">
-      <?php readfile('header.html'); ?>
+      <div id="title">
+        <h1>Zeitgeist</h1>
+        <h2>Intelligent RSS News Aggregator</h2>
+      </div>
+      <div id="ribbon">
+        Current Stable Version: <span class="version">1.0</span>
+        <a href="https://github.com/dwdyer/zeitgeist/downloads">Download</a>
+        <a href="https://github.com/dwdyer/zeitgeist/issues">Bugs</a>
+        <a href="https://github.com/dwdyer/zeitgeist">Source Code</a>
+      </div>
+
       <p style="text-align: center;">
         <em>Zeitgeist is Open Source software, free to download and use subject to the terms of the
         <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software Licence, Version 2.0</a>.</em>
@@ -30,7 +40,9 @@
         how to use Zeitgeist to generate a web page of news topics.  The default output looks something like the image on the right
         (it can be customised with CSS).
       </p>
-      <?php readfile('footer.html'); ?>
+      <div id="footer">
+        &copy; 2009 - 2012 <a href="http://dandyer.co.uk">Daniel W. Dyer</a>
+      </div>
     </div>
   </body>
 </html>

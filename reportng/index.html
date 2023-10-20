@@ -1,4 +1,4 @@
-<?php echo '<?xml version="1.0" encoding="utf-8" ?>'."\n" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
@@ -12,7 +12,16 @@
   </head>
   <body>
     <div id="container">
-      <?php readfile('header.html'); ?>
+      <div id="title">
+        <h1>ReportNG</h1>
+        <h2>An HTML/XML Reporting Plug-in for TestNG</h2>
+      </div>
+      <div id="ribbon">
+        Current Stable Version: <span class="version">1.1.4</span>
+        <a href="https://dl.dropboxusercontent.com/u/14133069/reportng-1.1.4.zip">Download</a>
+        <a href="https://github.com/dwdyer/reportng">Source Code</a>
+      </div>
+
       <p style="text-align: center;">
         <em style="color: #c00;">
           THIS SOFTWARE IS NO LONGER BEING MAINTAINED. VERSION 1.1.4 IS THE FINAL RELEASE.<br/>
@@ -87,7 +96,7 @@
       </p>
       <h3>Other Build Systems</h3>
       <p>
-        If you use <a href="http://maven.apache.org">Maven</a>, you may find 
+        If you use <a href="http://maven.apache.org">Maven</a>, you may find
         <a href="http://solidsoft.wordpress.com/2011/01/23/better-looking-html-test-reports-for-testng-with-reportng-maven-guide/">Marcin Zajączkowski's instructions</a>
         helpful.
       </p>
@@ -178,7 +187,9 @@
           by default.  If you want a log file you should set this property to "true".
         </dd>
       </dl>
-      <?php readfile('footer.html'); ?>
+      <div id="footer">
+        &copy; 2006 - 2013 <a href="http://www.dandyer.co.uk">Daniel W. Dyer</a>
+      </div>
     </div>
   </body>
 </html>

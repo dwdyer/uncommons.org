@@ -1,4 +1,4 @@
-<?php echo '<?xml version="1.0" encoding="utf-8" ?>'."\n" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
@@ -16,7 +16,10 @@
   </head>
   <body class="yui-skin-sam">
     <div id="container">
-      <?php readfile('header.html'); ?>
+      <div id="title">
+        <h1>Uncommons.org</h1>
+        <h2>Building a Better Wheel</h2>
+      </div>
 
       <p style="text-align: center;">
         All of the software projects on this page are Open Source software, licensed under the terms of
@@ -126,7 +129,12 @@
        </p>
      </div>
 
-      <?php readfile('footer.html'); ?>
+      <div id="footer">
+        <div id="credit">
+            Hosted by <a href="http://rectangularsoftware.com/">Rectangular Software</a>
+        </div>
+        &copy; 2006-2012 <a href="http://www.dandyer.co.uk">Daniel W. Dyer</a>
+      </div>
     </div>
   </body>
 </html>
